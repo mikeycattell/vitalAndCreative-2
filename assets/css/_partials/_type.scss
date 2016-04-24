@@ -1,0 +1,166 @@
+
+/*------------------------------------*\
+	$TYPE
+\*------------------------------------*/
+
+/*--type variables--*/
+
+
+/* rem sizing function */
+@function findrem($base, $pixel){
+	@return $pixel / $base;
+}
+
+@mixin font-rempx ($value) {
+	font-size: findrem($font-size, $value)rem;
+	font-size: #{$value}px;
+}
+
+body{
+	color: $color-black;
+	@include font-rempx(16);
+	font-family: $font-primary;
+	font-weight: $font-weight;
+	line-height: 1.5rem;
+}
+
+
+/*--- HEADINGS ---*/
+.alpha {
+	@include font-rempx(24);
+	font-weight: 700;	
+	line-height: 1.90rem;
+    text-transform: none;
+    padding-bottom: calc-em(10px);
+}
+.beta{
+	@include font-rempx(22);
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: calc-em(1px);
+	padding: calc-em(35px) 0 calc-em(25px);
+	// line-height:;
+	&.secondary {
+		color: $color-secondary;
+		margin: calc-em(25px) 0 calc-em(15px);
+		padding: 0;
+		position: relative;
+		z-index: 2;
+		span {
+			background: $color-white;
+			padding: 0 1.5em;
+		}
+		&:after {
+			content: "";
+			position: absolute;
+			z-index: -1;
+			width: 100%;
+			height: 0;
+			left: 0;
+			top: calc(50% - 3px);
+			border-top: 3px solid $color-secondary;
+		}
+	}
+}
+.gamma{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	border-bottom: 2px solid $color-secondary;
+	margin-bottom: calc-em(20px);
+}
+.delta{
+	font-weight: 600;
+	@include font-rempx(16);
+	line-height: 22px;
+	color: $color-black;
+	margin-bottom: 10px;
+}
+.epsilon{
+	text-transform: uppercase;
+	font-weight: 700;
+	color: $color-black;
+	@include font-rempx(14);
+}
+h6,.zeta{
+
+}
+
+/*--- LINKS ---*/
+a:hover { text-decoration: none; border-bottom: 1px solid $color-primary; }
+
+/*--- LISTS ---*/
+li > ul,
+li > ol{
+	margin-bottom:0;
+}
+
+
+
+@font-face {
+  font-family: 'slick';
+  src: url('../webfonts/slick.eot'); /* IE9 Compat Modes */
+  src: url('../webfonts/slick.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../webfonts/slick.woff') format('woff'), /* Modern Browsers */
+       url('../webfonts/slick.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../webfonts/slick.svg#8853aab46fdf0d89da10dcad4b5b2854') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  700;
+}
+
+
+@font-face {
+  font-family: 'GT Walsheim Pro Bold';
+  src: url('../webfonts/GT-Walsheim-Pro-Trial-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../webfonts/GT-Walsheim-Pro-Trial-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../webfonts/GT-Walsheim-Pro-Trial-Bold.woff') format('woff'), /* Modern Browsers */
+       url('../webfonts/GT-Walsheim-Pro-Trial-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../webfonts/GT-Walsheim-Pro-Trial-Bold.svg#392504cda5653c30d1c6c0fe162f65ae') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro Medium';
+  src: url('../webfonts/GT-Walsheim-Pro-Trial-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../webfonts/GT-Walsheim-Pro-Trial-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../webfonts/GT-Walsheim-Pro-Trial-Medium.woff') format('woff'), /* Modern Browsers */
+       url('../webfonts/GT-Walsheim-Pro-Trial-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../webfonts/GT-Walsheim-Pro-Trial-Medium.svg#80a02a2e348f88fcc2dfba6fa0f6048e') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+
+
+@font-face {
+  font-family: 'GT Walsheim Pro Light';
+  src: url('../webfonts/GT-Walsheim-Pro-Trial-Light.eot'); /* IE9 Compat Modes */
+  src: url('../webfonts/GT-Walsheim-Pro-Trial-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../webfonts/GT-Walsheim-Pro-Trial-Light.woff') format('woff'), /* Modern Browsers */
+       url('../webfonts/GT-Walsheim-Pro-Trial-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../webfonts/GT-Walsheim-Pro-Trial-Light.svg#78a78b03286c69c3bc63c9a13818c196') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+
+@font-face {
+  font-family: 'GT Pressura Trial Light';
+  src: url('../webfonts/GT-Pressura-Trial-Light.eot'); /* IE9 Compat Modes */
+  src: url('../webfonts/GT-Pressura-Trial-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../webfonts/GT-Pressura-Trial-Light.woff') format('woff'), /* Modern Browsers */
+       url('../webfonts/GT-Pressura-Trial-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../webfonts/GT-Pressura-Trial-Light.svg#0d80d483b5b9dd845fb09d23006bcb03') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+
+

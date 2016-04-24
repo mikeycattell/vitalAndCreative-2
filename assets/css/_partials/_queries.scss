@@ -1,0 +1,294 @@
+
+/*------------------------------------*\
+	$MEDIA QUERIES
+\*------------------------------------*/
+
+//1280px
+@media screen and (min-width: $bp-xlarge)  {
+
+}
+//960px
+@media screen and (max-width: $bp-large) {
+	header { padding: 0 45px; }
+	.header_default { padding: 0 45px; }
+}
+@media screen and (min-width: $bp-medium) {
+//640px
+}
+
+
+// custom sizes to fix mobiles
+
+
+//750px iphone 6+ landscape
+@media screen and (max-width: 750px) {
+	.content { padding: 0 20px; }
+	.home-page .mainheader--holder { padding: 0 50px; }
+	h1 { @include font-rempx(50);  line-height: 60px; padding-bottom: 30px; }
+
+	header { padding: 0 0 0 15px; }
+	header.header_default { padding: 0 0 0 15px; }
+
+	header .header--contactinfo {     text-align: left; }
+	header .header--contactinfo--internal {     text-align: left; }
+	.font25 { @include font-rempx(20); line-height: 28px; }
+
+	h3 { @include font-rempx(50); }
+	
+	.minicontent { padding: 0 0px; }
+	.whatidobullets .grid-half .holder { text-align: center; max-width: 100%; }
+	.whatidobullets .grid-half:nth-child(even) .holder { float: left; }
+
+	h4.whatido--subheader { @include font-rempx(30); line-height: 35px; padding: 40px 0px; }
+	h5 { @include font-rempx(20); }
+
+	.testimonials p:first-child {  @include font-rempx(30); line-height: 45px; }
+
+	.calltome p:first-child { @include font-rempx(35); line-height: 45px; }
+
+	.workpage--header h1 { @include font-rempx(50); line-height: 60px; padding-bottom: 0; }
+	.workpage--header h2 { @include font-rempx(26); line-height: 40px;  padding: 16px 0 0px; }
+	.workpage--header p { padding: 10px 0;  }
+
+	.workpieces {
+		.workpieces--each { 
+			p { @include font-rempx(20); }
+		 }
+
+	}	
+
+	.about-page .miniminicontent {     padding: 0; }
+
+	
+
+	.workpieces .work2 { margin: 0 0 100px; }
+	.workpieces .work5 { margin: 0 0 100px; }
+	.workpieces .work6 { margin: 0 0 100px; }
+
+
+
+	   #mc_embed_signup {background:#f2f2f2; border: 1px solid #d6d6d6; clear:left; padding: 53px 30px; margin: 30px 0 30px; }
+    .emailsign--container { margin: 0 auto; padding: 0 40px; }
+    .email { width: 100%; float: left; background: #d6d6d6; padding: 10px; font-size: 16px;  }
+    .button-mc { background: #000; color: #fff; float: right; width: auto; padding: 10px; font-size: 16px; }
+    #mc_embed_signup div.mce_inline_error { clear: both; }
+
+
+	.home-page { 		
+		h1 { font-family: $font-third; @include font-rempx(50); line-height: 64px; padding-bottom: 30px; }
+		h2 {  font-family: $font-third; @include font-rempx(26); font-size: 26px;  }
+		.homepage--link { @include font-rempx(26); padding: 10px 0 30px; margin: 0;
+			a { color: white; font-family: 'GT Walsheim Pro Medium'; }
+		 }
+		.mainheader--holder { padding: 0 150px; }
+		.head--padding { padding: 40px 30px 20px; }
+		p.homepage--para { font-size: 18px; font-family: $font-forth;  }
+		.left-head { padding: 0 50px 0 0; }
+		.right-head { padding: 80px 0 0 50px; }
+	}	
+
+	.about-page { padding: 20px 0 0; 
+		h1 { @include font-rempx(40); line-height: 49px; padding-bottom: 30px; }
+	}	
+
+	.blogholder--page { padding: 100px 20px 60px; 
+		h1 { @include font-rempx(45); line-height:55px; padding: 0; }
+	}	
+
+	.blogholder--page ul.blogfeed--container li a.blogfeed--postheader { @include font-rempx(35); line-height:45px; }
+
+	ul.shots { list-style: none; padding: 0; margin: 0 0 30px; display: inline-block;
+	  li { float: left; width: 50%; padding: 0 20px 0 0; 
+	  	&:hover { border-bottom: 0;  }
+	  }
+	  li:first-child { float: left; width: 50%; padding: 0 20px 0 0; }	
+	  li:nth-child(3n+0) { float: left; width: 50%; padding: 0 20px 0 0;	}
+
+	  
+	  img { display: block; width: 100%; 
+	  	&:hover { border-bottom: 0;  }
+	  }
+	  
+	  a { display: block; 
+	  	&:hover { border-bottom: 0;  }
+	  }
+	}	
+
+ul.blogfeed--container { list-style-type: none; padding: 0 10px; margin: 0;
+	li { padding: 5px 0 5px; border-bottom: 1px solid #d6d6d6;
+		a.blogfeed--postheader { padding: 0 0 18px; @include font-rempx(35); line-height: 40px; border-bottom:0;   }
+		a.blogfeed--postheader:before { background-color: transparent; height: 0; }
+		a.blogfeed--readmore { @include font-rempx(20); }
+		.main {  @include font-rempx(20); }
+	}
+}
+
+ul.blogfeed--container--side { list-style-type: none; padding: 0 10px; margin: 0;
+	li { padding: 15px 0 5px; border-bottom: 1px solid #d6d6d6;
+		a.blogfeed--postheader { padding: 0 0 18px; @include font-rempx(35); line-height: 40px; border-bottom:0;   }
+		a.blogfeed--postheader:before { background-color: transparent; height: 0; }
+		a.blogfeed--readmore { @include font-rempx(20); }
+		.main {  @include font-rempx(20); }
+	}
+	li:first-child { display: none; }
+}	
+
+.whatido--box--business {   padding: 20px;  margin-bottom: 30px;
+	p:first-child { @include font-rempx(35); line-height: 35px; margin-bottom: 10px; }
+	p:nth-child(3) { @include font-rempx(20); line-height: 26px }
+}
+.whatido--box--agency { padding: 20px; 
+	p:first-child { @include font-rempx(35); line-height: 35px; margin-bottom: 10px;  }
+	p:nth-child(3) { @include font-rempx(20); line-height: 26px }
+}
+
+article {
+	header {
+		h1 { @include font-rempx(40); line-height: 55px; color: #303030; text-transform: capitalize; padding: 90px 0 30px; }
+	}
+}
+
+.show750 { display: inline;}
+	
+}
+
+
+//640px iphone 6 landscape
+@media screen and (max-width: 640px) {
+
+	.show640 { display: block;}
+	.hide640 { display: none;}
+
+	h3 { @include font-rempx(38);  }
+	.font30 { @include font-rempx(25); line-height: 33px; }
+	.font35 { @include font-rempx(25); line-height: 33px; }
+
+	.testimonials p:first-child {  @include font-rempx(26); line-height: 45px; }
+
+	.hero_work_pages { position: relative; overflow: hidden;padding: calc-em(0)  calc-em(0px) calc-em(35px);  text-align: center; 
+		h1 { @include font-rempx(50); line-height: 58px; text-align: center; padding: 50px 0 20px;  }
+		.logohold { padding: 20px 0 20px;  text-align: center;  }
+	}
+
+	header { padding: 0 5px; }
+	.header_internal { padding: 0 5px; }
+
+	header .header-contactus--internal { padding-top: 8px; }
+
+
+}
+
+//568px iphone 5 landscape
+@media screen and (max-width: 568px) {
+	h1 { @include font-rempx(36);  line-height: 48px; padding-bottom: 30px; }
+
+	.home-page { 		
+		h1 { font-family: $font-third; @include font-rempx(36); line-height: 44px; padding-bottom: 30px; }
+		h2 {  font-family: $font-third; @include font-rempx(20); font-size: 26px;  }
+		.homepage--link { @include font-rempx(20); padding: 10px 0 30px; margin: 0;
+			a { color: white; font-family: 'GT Walsheim Pro Medium'; }
+		 }
+		.mainheader--holder { padding: 0 150px; }
+		.head--padding { padding: 40px 20px 20px; }
+		p.homepage--para { font-size: 18px; font-family: $font-forth;  }
+		.left-head { padding: 0 00px 0 0; }
+		.right-head { padding: 30px 00px 0 0px; }
+	}		
+
+	.about-page h1 { @include font-rempx(32); line-height: 40px; padding-top: 80px; }
+	.workpage--header h1 { @include font-rempx(32); line-height: 40px;     padding-top: 50px; }
+	.workpage--header { padding: 35px 0 35px 10px; }
+
+	.workpieces .workpieces--each .text-container .workpieces--name { @include font-rempx(32); line-height: 40px; }
+
+	input { width: 100%; }
+
+	textarea  { width: 100%; }
+
+	ul, ol, dl {
+    margin-bottom: 1em;
+    margin-left: 25px; }
+
+    .workpage--header h2 { @include font-rempx(20); line-height: 30px;}
+
+}
+
+
+//480px
+@media screen and (max-width: $bp-small) {
+	main { overflow: hidden; }
+	figure {	
+		.offpage { min-width: 500px; /* overflow: hidden; */ background-position: left 10px; }
+	}
+
+
+.logoholder { text-align: center; padding: 7px 0 0 0; }
+
+
+nav { text-align: center; margin: 0 auto; width: 100%;
+	.home_top { float: none; font-size: 0; display: block; text-align: center; margin: 0 auto; width: 100%;
+		ul.menu { list-style: none; padding-top: 10px; margin: 0 auto; text-align: center;  width: 100%;
+			li { text-align: center; display: inline-block; padding: 0 12px 0px 0; } 
+			li:last-child { padding: 0 0 0px 0; } 
+			a { font-size: 14px; ;}
+			a:link { border: 0; }
+		}
+	}
+}
+
+nav.internal { text-align: center; margin: 0 auto; width: 100%;
+	.home_top { float: none; font-size: 0; display: block; text-align: center; margin: 0 auto; width: 100%;
+		ul.menu { list-style: none; padding-top: 10px; margin: 0 auto; text-align: center;  width: 100%;
+			li { text-align: center; display: inline-block; padding: 0 12px 0px 0; } 
+			li:last-child { padding: 0 0 0px 0; } 
+			a { font-size: 14px; ;}
+			a:link { border: 0; }
+		}
+	}
+}
+
+
+}
+@media screen and (max-width: $bp-xsmall) {
+	nav { text-align: center;
+		.home_top { float: none; font-size: 0; display: block; text-align: center;
+			ul { list-style: none; padding-top: 10px;
+				li { text-align: center; display: inline-block; padding: 0 10px 10px 0; } 
+				li:nth-child(2) { } 
+				li:last-child { padding: 0 0 10px 0; } 
+				a { font-size: 14px; color: #444444; text-transform: uppercase; font-family: $font-secondary;}
+				a:link { border: 0; }
+			}
+		}
+	}
+
+nav.internal { cursor: pointer; margin: 0 auto; text-align: center;
+	.home_top { float: none; font-size: 0; display: block;
+		ul.menu { list-style: none; padding-top: 10px;
+			li { text-align: right; display: inline-block; padding: 0 15px 10px 0; } 
+			li:last-child { padding: 0 0 0 0; } 
+			a { font-size: 14px; color: $color-black; text-transform: uppercase; font-family: $font-secondary;
+				&:hover { text-decoration:none; border-bottom: 1px solid $color-primary; }
+			}
+
+			.current_page_item  a { color: $color-primary; border-bottom: 1px solid $color-primary; 
+				&:hover { text-decoration:none; }
+			}
+		}
+	}
+}
+
+}
+
+//1205px
+@media screen and (max-width: $bp-nav-step1) {
+
+}
+//1093px
+@media screen and (max-width: $bp-nav-step2) {
+
+}
+ //981px
+@media screen and (max-width: $bp-nav-step3) {
+
+}
