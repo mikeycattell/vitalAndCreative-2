@@ -9,20 +9,17 @@
 
 					<header>
 						<h1><?php the_title(); ?></h1>
-
-
+						<p style="font-size: 14px; font-style: italic; color: #9d9d9d;">Date posted: <?php the_date(); ?></p>
 					</header>
-					<a href = "#" class = "btn"> Button text </a>
 				</div>
 			</section>
 
 
-			<div class="wrapper content"> 
+			<div class="wrapper content" style="padding-top: 50px;"> 
 
 				<div class="singleBlogPost">
 
 					<article>
-						<p>Date posted: <?php the_date(); ?></p>
 						<p><?php the_content(); ?></p>
 					</article>
 				<?php endwhile; ?>

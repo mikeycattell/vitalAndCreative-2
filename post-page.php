@@ -19,7 +19,7 @@ Template Name: post page
         </section>
 
   <section class="section--spacer wrapper content">
-    <div class="grid-two-thirds">
+    <div class="grid-three-fourths">
     
       <?php
           $args = array (
@@ -38,13 +38,13 @@ Template Name: post page
                   echo '';
               endif;
               ?>
-        
+        <div style="margin-bottom: 60px;">
           <p class="" style="font-size: 26px; margin: 0 0 3px;
           "><a href = "<?php the_permalink();?>"><?php the_title(); ?></a></p>
           <p style="font-size: 14px; font-style: italic; color: #9d9d9d;">Date written: &nbsp <?php the_date(); ?></p>
           <?php the_excerpt(); ?>
-          <a class="btn" href = "<?php the_permalink();?>"> read more </a>
-        
+          <a class="btn btn-secondary" href = "<?php the_permalink();?>"> read more </a>
+        </div>
               <?php
               $post_count++;
               if(($post_count/4)==floor($post_count/4)):
@@ -53,14 +53,15 @@ Template Name: post page
               endwhile;
               ?>
       <?php endif; ?>
+
       
 
       <?php wp_reset_postdata(); ?>
     </div>
 
 
-        <div class="grid-third"> 
-		<!--<?php if ( ! dynamic_sidebar( 'primary' ) ) : ?>
+        <div class="grid-fourth"> 
+		<?php if ( ! dynamic_sidebar( 'primary' ) ) : ?>
 
    			<aside id="categories" class="widget">
 			<ul>
@@ -69,14 +70,14 @@ Template Name: post page
 		    </aside>
 
 		<?php endif; ?>
-    -->
-		<aside id="search-3" class="widget widget_search"><form role="search" method="get" class="search-form" action="">
+    
+		<!--<aside id="search-3" class="widget widget_search"><form role="search" method="get" class="search-form" action="">
         <label>
         <input type="search" class="search-field" placeholder="Search This website" value="" name="s" title="Search for:">
         </label>
         
       </form>
-      </aside>
+      </aside>-->
     </div>  
 
 	</section>

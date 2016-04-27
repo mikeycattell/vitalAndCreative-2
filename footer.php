@@ -3,7 +3,7 @@
 		<section class="section--spacer">
 			<div class="wrapper">
 				<div class="grid-half">
-					<p style="font-size: 28px;">asdasdasdasdasd</p>
+					<p style="font-size: 28px;">I’d love to hear from you - Let’s talk</p>
 				</div>
 				<div class="grid-half" style="text-align: right;">
 					<p style="font-size: 28px; color: blue">Why not follow my ass on twitter?</p>

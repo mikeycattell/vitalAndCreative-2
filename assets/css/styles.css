@@ -1095,20 +1095,20 @@ article header h1 {
   padding: 90px 0 30px; }
 
 footer {
-  background: #ff1744;
+  background: #fff;
+  border-top: 1px solid #d6d6d6;
   padding: 50px 0;
-  color: #ffffff;
+  color: #151515;
   font-size: 0.8888888889 rem;
   font-size: 16px; }
   footer a {
-    color: #ffffff; }
+    color: #151515; }
   footer a:link {
-    color: #ffffff;
-    font-family: "GT Walsheim Pro Bold", sans-serif; }
+    color: #151515; }
     footer a:link:hover {
-      color: #ffffff; }
+      color: #151515; }
   footer a:visited {
-    color: #ffffff; }
+    color: #151515; }
 
 /* headers */
 h1 {
@@ -1120,8 +1120,8 @@ h1 {
 
 h2 {
   padding: 30px 0 0;
-  font-size: 2 rem;
-  font-size: 36px;
+  font-size: 1.8888888889 rem;
+  font-size: 34px;
   line-height: 44px; }
 
 h3 {
@@ -1269,6 +1269,19 @@ ul.shots {
 
 .show750 {
   display: none; }
+
+.widget_recent_comments, .widget_meta {
+  display: none; }
+
+.search-form label span {
+  display: none; }
+
+.search-form input {
+  font-size: 18px; }
+
+.search-form .search-submit {
+  background: red;
+  color: white; }
 
 .animate_steps1 {
   -webkit-animation-delay: 0.5s;
@@ -1531,8 +1544,8 @@ ul.shots {
   header {
     padding: 0 45px; }
 
-  .header_default {
-    padding: 0 45px; } }
+  .content {
+    padding: 0 20px; } }
 @media screen and (max-width: 750px) {
   .content {
     padding: 0 20px; }
@@ -1549,15 +1562,6 @@ ul.shots {
   header {
     padding: 0 0 0 15px; }
 
-  header.header_default {
-    padding: 0 0 0 15px; }
-
-  header .header--contactinfo {
-    text-align: left; }
-
-  header .header--contactinfo--internal {
-    text-align: left; }
-
   .font25 {
     font-size: 1.1111111111 rem;
     font-size: 20px;
@@ -1567,119 +1571,15 @@ ul.shots {
     font-size: 2.7777777778 rem;
     font-size: 50px; }
 
-  .minicontent {
-    padding: 0 0px; }
-
-  .whatidobullets .grid-half .holder {
-    text-align: center;
-    max-width: 100%; }
-
-  .whatidobullets .grid-half:nth-child(even) .holder {
-    float: left; }
-
-  h4.whatido--subheader {
-    font-size: 1.6666666667 rem;
-    font-size: 30px;
-    line-height: 35px;
-    padding: 40px 0px; }
-
-  h5 {
-    font-size: 1.1111111111 rem;
-    font-size: 20px; }
-
-  .testimonials p:first-child {
-    font-size: 1.6666666667 rem;
-    font-size: 30px;
-    line-height: 45px; }
-
-  .calltome p:first-child {
-    font-size: 1.9444444444 rem;
-    font-size: 35px;
-    line-height: 45px; }
-
-  .workpage--header h1 {
-    font-size: 2.7777777778 rem;
-    font-size: 50px;
-    line-height: 60px;
-    padding-bottom: 0; }
-
-  .workpage--header h2 {
-    font-size: 1.4444444444 rem;
-    font-size: 26px;
-    line-height: 40px;
-    padding: 16px 0 0px; }
-
-  .workpage--header p {
-    padding: 10px 0; }
-
-  .workpieces .workpieces--each p {
-    font-size: 1.1111111111 rem;
-    font-size: 20px; }
-
-  .about-page .miniminicontent {
-    padding: 0; }
-
-  .workpieces .work2 {
-    margin: 0 0 100px; }
-
-  .workpieces .work5 {
-    margin: 0 0 100px; }
-
-  .workpieces .work6 {
-    margin: 0 0 100px; }
-
-  #mc_embed_signup {
-    background: #f2f2f2;
-    border: 1px solid #d6d6d6;
-    clear: left;
-    padding: 53px 30px;
-    margin: 30px 0 30px; }
-
-  .emailsign--container {
-    margin: 0 auto;
-    padding: 0 40px; }
-
-  .email {
-    width: 100%;
-    float: left;
-    background: #d6d6d6;
-    padding: 10px;
-    font-size: 16px; }
-
-  .button-mc {
-    background: #000;
-    color: #fff;
-    float: right;
-    width: auto;
-    padding: 10px;
-    font-size: 16px; }
-
-  #mc_embed_signup div.mce_inline_error {
-    clear: both; }
-
   .home-page h1 {
-    font-family: "GT Walsheim Pro Medium", sans-serif;
     font-size: 2.7777777778 rem;
     font-size: 50px;
     line-height: 64px;
     padding-bottom: 30px; }
-  .home-page h2 {
-    font-family: "GT Walsheim Pro Medium", sans-serif;
-    font-size: 1.4444444444 rem;
-    font-size: 26px;
-    font-size: 26px; }
-  .home-page .homepage--link {
-    font-size: 1.4444444444 rem;
-    font-size: 26px;
-    padding: 10px 0 30px;
-    margin: 0; }
-    .home-page .homepage--link a {
-      color: white;
-      font-family: 'GT Walsheim Pro Medium'; }
   .home-page .mainheader--holder {
     padding: 0 150px; }
   .home-page .head--padding {
-    padding: 40px 30px 20px; }
+    padding: 90px 30px 20px; }
   .home-page p.homepage--para {
     font-size: 18px;
     font-family: "GT Walsheim Pro Light", sans-serif; }
@@ -1688,13 +1588,8 @@ ul.shots {
   .home-page .right-head {
     padding: 80px 0 0 50px; }
 
-  .about-page {
-    padding: 20px 0 0; }
-    .about-page h1 {
-      font-size: 2.2222222222 rem;
-      font-size: 40px;
-      line-height: 49px;
-      padding-bottom: 30px; }
+  .header_default {
+    padding: 0; }
 
   .blogholder--page {
     padding: 100px 20px 60px; }
@@ -1708,108 +1603,6 @@ ul.shots {
     font-size: 1.9444444444 rem;
     font-size: 35px;
     line-height: 45px; }
-
-  ul.shots {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 30px;
-    display: inline-block; }
-    ul.shots li {
-      float: left;
-      width: 50%;
-      padding: 0 20px 0 0; }
-      ul.shots li:hover {
-        border-bottom: 0; }
-    ul.shots li:first-child {
-      float: left;
-      width: 50%;
-      padding: 0 20px 0 0; }
-    ul.shots li:nth-child(3n+0) {
-      float: left;
-      width: 50%;
-      padding: 0 20px 0 0; }
-    ul.shots img {
-      display: block;
-      width: 100%; }
-      ul.shots img:hover {
-        border-bottom: 0; }
-    ul.shots a {
-      display: block; }
-      ul.shots a:hover {
-        border-bottom: 0; }
-
-  ul.blogfeed--container {
-    list-style-type: none;
-    padding: 0 10px;
-    margin: 0; }
-    ul.blogfeed--container li {
-      padding: 5px 0 5px;
-      border-bottom: 1px solid #d6d6d6; }
-      ul.blogfeed--container li a.blogfeed--postheader {
-        padding: 0 0 18px;
-        font-size: 1.9444444444 rem;
-        font-size: 35px;
-        line-height: 40px;
-        border-bottom: 0; }
-      ul.blogfeed--container li a.blogfeed--postheader:before {
-        background-color: transparent;
-        height: 0; }
-      ul.blogfeed--container li a.blogfeed--readmore {
-        font-size: 1.1111111111 rem;
-        font-size: 20px; }
-      ul.blogfeed--container li .main {
-        font-size: 1.1111111111 rem;
-        font-size: 20px; }
-
-  ul.blogfeed--container--side {
-    list-style-type: none;
-    padding: 0 10px;
-    margin: 0; }
-    ul.blogfeed--container--side li {
-      padding: 15px 0 5px;
-      border-bottom: 1px solid #d6d6d6; }
-      ul.blogfeed--container--side li a.blogfeed--postheader {
-        padding: 0 0 18px;
-        font-size: 1.9444444444 rem;
-        font-size: 35px;
-        line-height: 40px;
-        border-bottom: 0; }
-      ul.blogfeed--container--side li a.blogfeed--postheader:before {
-        background-color: transparent;
-        height: 0; }
-      ul.blogfeed--container--side li a.blogfeed--readmore {
-        font-size: 1.1111111111 rem;
-        font-size: 20px; }
-      ul.blogfeed--container--side li .main {
-        font-size: 1.1111111111 rem;
-        font-size: 20px; }
-    ul.blogfeed--container--side li:first-child {
-      display: none; }
-
-  .whatido--box--business {
-    padding: 20px;
-    margin-bottom: 30px; }
-    .whatido--box--business p:first-child {
-      font-size: 1.9444444444 rem;
-      font-size: 35px;
-      line-height: 35px;
-      margin-bottom: 10px; }
-    .whatido--box--business p:nth-child(3) {
-      font-size: 1.1111111111 rem;
-      font-size: 20px;
-      line-height: 26px; }
-
-  .whatido--box--agency {
-    padding: 20px; }
-    .whatido--box--agency p:first-child {
-      font-size: 1.9444444444 rem;
-      font-size: 35px;
-      line-height: 35px;
-      margin-bottom: 10px; }
-    .whatido--box--agency p:nth-child(3) {
-      font-size: 1.1111111111 rem;
-      font-size: 20px;
-      line-height: 26px; }
 
   article header h1 {
     font-size: 2.2222222222 rem;
@@ -1842,35 +1635,12 @@ ul.shots {
     font-size: 25px;
     line-height: 33px; }
 
-  .testimonials p:first-child {
-    font-size: 1.4444444444 rem;
-    font-size: 26px;
-    line-height: 45px; }
-
-  .hero_work_pages {
-    position: relative;
-    overflow: hidden;
-    padding: 0em 0em 2.1875em;
-    text-align: center; }
-    .hero_work_pages h1 {
-      font-size: 2.7777777778 rem;
-      font-size: 50px;
-      line-height: 58px;
-      text-align: center;
-      padding: 50px 0 20px; }
-    .hero_work_pages .logohold {
-      padding: 20px 0 20px;
-      text-align: center; }
-
   header {
-    padding: 0 5px; }
-
-  .header_internal {
-    padding: 0 5px; }
-
-  header .header-contactus--internal {
-    padding-top: 8px; } }
+    padding: 0 5px; } }
 @media screen and (max-width: 568px) {
+  header .font20 {
+    margin: 0; }
+
   h1 {
     font-size: 2 rem;
     font-size: 36px;
@@ -1879,9 +1649,9 @@ ul.shots {
 
   .home-page h1 {
     font-family: "GT Walsheim Pro Medium", sans-serif;
-    font-size: 2 rem;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 1.6666666667 rem;
+    font-size: 30px;
+    line-height: 40px;
     padding-bottom: 30px; }
   .home-page h2 {
     font-family: "GT Walsheim Pro Medium", sans-serif;
@@ -1899,7 +1669,8 @@ ul.shots {
   .home-page .mainheader--holder {
     padding: 0 150px; }
   .home-page .head--padding {
-    padding: 40px 20px 20px; }
+    padding: 100px 20px 20px;
+    text-align: center; }
   .home-page p.homepage--para {
     font-size: 18px;
     font-family: "GT Walsheim Pro Light", sans-serif; }
@@ -1914,20 +1685,6 @@ ul.shots {
     line-height: 40px;
     padding-top: 80px; }
 
-  .workpage--header h1 {
-    font-size: 1.7777777778 rem;
-    font-size: 32px;
-    line-height: 40px;
-    padding-top: 50px; }
-
-  .workpage--header {
-    padding: 35px 0 35px 10px; }
-
-  .workpieces .workpieces--each .text-container .workpieces--name {
-    font-size: 1.7777777778 rem;
-    font-size: 32px;
-    line-height: 40px; }
-
   input {
     width: 100%; }
 
@@ -1936,25 +1693,8 @@ ul.shots {
 
   ul, ol, dl {
     margin-bottom: 1em;
-    margin-left: 25px; }
-
-  .workpage--header h2 {
-    font-size: 1.1111111111 rem;
-    font-size: 20px;
-    line-height: 30px; } }
+    margin-left: 25px; } }
 @media screen and (max-width: 30em) {
-  main {
-    overflow: hidden; }
-
-  figure .offpage {
-    min-width: 500px;
-    /* overflow: hidden; */
-    background-position: left 10px; }
-
-  .logoholder {
-    text-align: center;
-    padding: 7px 0 0 0; }
-
   nav {
     text-align: center;
     margin: 0 auto;
@@ -1979,36 +1719,8 @@ ul.shots {
         nav .home_top ul.menu li:last-child {
           padding: 0 0 0px 0; }
         nav .home_top ul.menu a {
-          font-size: 14px; }
+          font-size: 16px; }
         nav .home_top ul.menu a:link {
-          border: 0; }
-
-  nav.internal {
-    text-align: center;
-    margin: 0 auto;
-    width: 100%; }
-    nav.internal .home_top {
-      float: none;
-      font-size: 0;
-      display: block;
-      text-align: center;
-      margin: 0 auto;
-      width: 100%; }
-      nav.internal .home_top ul.menu {
-        list-style: none;
-        padding-top: 10px;
-        margin: 0 auto;
-        text-align: center;
-        width: 100%; }
-        nav.internal .home_top ul.menu li {
-          text-align: center;
-          display: inline-block;
-          padding: 0 12px 0px 0; }
-        nav.internal .home_top ul.menu li:last-child {
-          padding: 0 0 0px 0; }
-        nav.internal .home_top ul.menu a {
-          font-size: 14px; }
-        nav.internal .home_top ul.menu a:link {
           border: 0; } }
 @media screen and (max-width: 20em) {
   nav {
@@ -2028,43 +1740,12 @@ ul.shots {
         nav .home_top ul li:last-child {
           padding: 0 0 10px 0; }
         nav .home_top ul a {
-          font-size: 14px;
+          font-size: 16px;
           color: #444444;
           text-transform: uppercase;
           font-family: "GT Walsheim Pro Bold", sans-serif; }
         nav .home_top ul a:link {
-          border: 0; }
-
-  nav.internal {
-    cursor: pointer;
-    margin: 0 auto;
-    text-align: center; }
-    nav.internal .home_top {
-      float: none;
-      font-size: 0;
-      display: block; }
-      nav.internal .home_top ul.menu {
-        list-style: none;
-        padding-top: 10px; }
-        nav.internal .home_top ul.menu li {
-          text-align: right;
-          display: inline-block;
-          padding: 0 15px 10px 0; }
-        nav.internal .home_top ul.menu li:last-child {
-          padding: 0 0 0 0; }
-        nav.internal .home_top ul.menu a {
-          font-size: 14px;
-          color: #151515;
-          text-transform: uppercase;
-          font-family: "GT Walsheim Pro Bold", sans-serif; }
-          nav.internal .home_top ul.menu a:hover {
-            text-decoration: none;
-            border-bottom: 1px solid #e65142; }
-        nav.internal .home_top ul.menu .current_page_item a {
-          color: #e65142;
-          border-bottom: 1px solid #e65142; }
-          nav.internal .home_top ul.menu .current_page_item a:hover {
-            text-decoration: none; } }
+          border: 0; } }
 /*------------------------------------*\
 	$IE HACKS AND FIXES
 \*------------------------------------*/

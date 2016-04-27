@@ -9,11 +9,14 @@
     </div>
   </section>
 
-  <section class="wrapper" style="padding: 50px 0;">
+  <section class="wrapper" style="padding: 50px 0 10px;">
     <div class="content">
 
       <div class="grid-four-tenths">
-        <img src="<?php the_field('image-input-1'); ?>">
+        <img src="<?php the_field('image-input-1'); ?>" style="
+        -webkit-box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.14);
+      -moz-box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.14);
+      box-shadow: 0px 16px 42px 0px rgba(0, 0, 0, 0.14);">
       </div>
 
       <div class="grid-six-tenths">
@@ -26,21 +29,29 @@
 
   </section>
 
-  <section class="section--spacer text-center">
+  <!--<section class="wrapper">
+    <div class="content">
+      <hr>
+    </div>
+  </section>  -->
+
+  <section class="text-center" style="background: #f2f2f2; border-top: 0px solid #d6d6d6; padding: 40px 0; margin: 40px 0 0;">
 
 
     <div class="wrapper">
       <div class="content">
-        <h3><?php the_field('h3-input'); ?></h3>
+        <h3 style="margin: 0; padding: 0 0 25px;"><?php the_field('h3-input'); ?></h3>
     
-        <p><?php the_field('text-input-2'); ?></p>
+        <div style="margin: 0; padding: 0 0 20px;"><?php the_field('text-input-2'); ?></div>
       </div>
       <?php if( have_rows('service-repeater') ):
           while ( have_rows('service-repeater') ) : the_row();             
       ?>
 
-      <div class="grid-third" style="margin-bottom: 30px;">
-        <div style="background: #f6f9fa;padding: 30px; box-sizing: border-box;">
+      <div class="grid-third" style="margin-bottom: 40px;">
+        <div style="background: #fff;padding: 30px; box-sizing: border-box;       -webkit-box-shadow: 0px 16px 42px 0px rgba(0, 0, 0, 0.14);
+      -moz-box-shadow: 0px 16px 42px 0px rgba(0, 0, 0, 0.14);
+      box-shadow: 0px 16px 42px 0px rgba(0, 0, 0, 0.14);">
           <img style="padding: 0 0 10px;" src="<?php the_sub_field('service-emblem'); ?>">
           <h5><?php  the_sub_field('service-title'); ?></h5>
           <p><?php the_sub_field('service-text'); ?></p>
@@ -54,9 +65,9 @@
 
   <div class="clearfix"></div>
 
-  <section class="section--spacer" style="background-color: #ff1744">
-    <div class="wrapper text-center">
-      <p>asdasdasdasd</p>
+  <section class="section--spacer" style="background-color: #ff1744; color: #fff;">
+    <div class="wrapper minicontent text-center">
+      <p class="font20">Reference site about Lorem Ipsum.</p>
       <a class="btn" href="#"> cta button </a>
     </div>
   </section>
@@ -85,7 +96,7 @@
                 echo '';
             endif;
             ?>
-      <div class="grid-half" style="min-height: 350px;" >
+      <div class="grid-half" style="min-height: 350px; margin-bottom: 30px;" >
         <p class="" style="font-size: 26px; margin: 0 0 3px;
         "><a href = "<?php the_permalink();?>"><?php the_title(); ?></a></p>
         <p style="font-size: 14px; font-style: italic; color: #9d9d9d;">Date written: &nbsp <?php the_date(); ?></p>

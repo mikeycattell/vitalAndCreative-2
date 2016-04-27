@@ -139,17 +139,17 @@ article {
 }
 
 
-footer { background: #ff1744; padding: 50px 0; color: $color-white; @include font-rempx(16);
-	a { color: $color-white; }
-	a:link { color: $color-white; font-family: $font-secondary;
-		&:hover { color: $color-white;  }
+footer { background: #fff; border-top: 1px solid #d6d6d6; padding: 50px 0; color: $color-black; @include font-rempx(16);
+	a { color: $color-black; }
+	a:link { color: $color-black;
+		&:hover { color: $color-black;  }
 	}
-	a:visited { color: $color-white;  } 
+	a:visited { color: $color-black;  } 
 }
 
 /* headers */
 h1 { font-family: 'GT Walsheim Pro Medium'; @include font-rempx(68px); line-height: 74px; padding-bottom: 30px; }
-h2 { padding: 30px 0 0; @include font-rempx(36); line-height: 44px; }
+h2 { padding: 30px 0 0; @include font-rempx(34); line-height: 44px; }
 h3 { @include font-rempx(28); line-height: 32px; padding: 0 0 30px;  }
 
 h4 { padding: 30px 0 0; @include font-rempx(30); line-height: 45px; }
@@ -199,6 +199,11 @@ ul.shots { list-style: none; padding: 0; margin: 0 0 20px; display: inline-block
 /* misc */
 .show640 { display: none;}
 .show750  { display: none;}
+
+.widget_recent_comments, .widget_meta { display: none; }
+.search-form label span { display: none; }
+.search-form input { font-size: 18px; }
+.search-form .search-submit { background: red; color: white; }
 
 .animate_steps1 { -webkit-animation-delay: 0.5s; animation-delay: 0.5s; }
 .animate_steps2 { -webkit-animation-delay: 1s; animation-delay: 1s ;}
