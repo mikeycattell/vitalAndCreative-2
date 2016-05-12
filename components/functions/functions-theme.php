@@ -9,6 +9,10 @@ function ahoy_enquire()
 	
 	wp_enqueue_script('modernise-modernizr', 		get_template_directory_uri() . '/assets/js/fallback/modernizr.2.8.3.js', array( 'jquery' ), false, true);
 
+	// Fades in items within viewpoint (google can sometimes not render content - you've been warned!)
+	wp_enqueue_script('wowjs', 						get_template_directory_uri() . '/assets/libs/wowjs/wow.min.js', array( 'jquery' ));
+	wp_enqueue_style('animate-css', 				get_template_directory_uri() . '/assets/libs/wowjs/animate.css');	
+
 	wp_enqueue_style('vitalandcreative-style', 					get_stylesheet_directory_uri() . '/assets/css/styles.css');
 
 	wp_enqueue_script('mitt-script', 				get_stylesheet_directory_uri() . '/assets/js/main.js', array( 'jquery' ));

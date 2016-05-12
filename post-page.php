@@ -8,12 +8,9 @@ Template Name: post page
 
 	<main role="main" class="all-post">
 
-		<section class="home--header" style="background-image: url('<?php the_field('post-background');?>');"> 
+		<section class="home--header"> 
         <div class="wrapper head--padding text-center">
-
-          <header>
             <h1><?php the_field('title-input'); ?></h1>
-          </header>
         </div>
 
         </section>
@@ -39,11 +36,10 @@ Template Name: post page
               endif;
               ?>
         <div style="margin-bottom: 60px;">
-          <p class="" style="font-size: 26px; margin: 0 0 3px;
-          "><a href = "<?php the_permalink();?>"><?php the_title(); ?></a></p>
-          <p style="font-size: 14px; font-style: italic; color: #9d9d9d;">Date written: &nbsp <?php the_date(); ?></p>
+          <p class="font25" style="margin: 0 0 5px;"><a href = "<?php the_permalink();?>"><?php the_title(); ?></a></p>
+          <p style="font-size: 14px; font-style: italic; color: #9d9d9d;">Date written: <?php the_date(); ?></p>
           <?php the_excerpt(); ?>
-          <a class="btn btn-secondary" href = "<?php the_permalink();?>"> read more </a>
+          <a class="btn btn-small" href = "<?php the_permalink();?>"> Read more </a>
         </div>
               <?php
               $post_count++;

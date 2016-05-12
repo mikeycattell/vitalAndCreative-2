@@ -9,12 +9,12 @@
 }
 //960px
 @media screen and (max-width: $bp-large) {
-	header { padding: 0 45px; }
+	header { padding: 13px 45px; }
 	.content { padding: 0 20px; }
 
 }
-@media screen and (min-width: $bp-medium) {
 //640px
+@media screen and (min-width: $bp-medium) {
 }
 
 
@@ -23,84 +23,19 @@
 
 //750px iphone 6+ landscape
 @media screen and (max-width: 750px) {
-	.content { padding: 0 20px; }
-	.home-page .mainheader--holder { padding: 0 50px; }
-	h1 { @include font-rempx(50);  line-height: 60px; padding-bottom: 30px; }
-
-	header { padding: 0 0 0 15px; }
 	
-	.font25 { @include font-rempx(20); line-height: 28px; }
-	h3 { @include font-rempx(50); }
-		
-	.home-page { 			 
-		h1 { @include font-rempx(50); line-height: 64px; padding-bottom: 30px; }
-		.mainheader--holder { padding: 0 150px; }
-		.head--padding { padding: 90px 30px 20px; }
-		p.homepage--para { font-size: 18px; font-family: $font-forth;  }
-		.left-head { padding: 0 50px 0 0; }
-		.right-head { padding: 80px 0 0 50px; }
-	}	
 
-	.header_default { padding: 0; }
-
-	.blogholder--page { padding: 100px 20px 60px; 
-		h1 { @include font-rempx(45); line-height:55px; padding: 0; }
-	}	
-
-	.blogholder--page ul.blogfeed--container li a.blogfeed--postheader { @include font-rempx(35); line-height:45px; }
-
-	article {
-		header {
-			h1 { @include font-rempx(40); line-height: 55px; color: #303030; text-transform: capitalize; padding: 90px 0 30px; }
-		}
-	}
-
-	.show750 { display: inline;}
-	
 }
 
 
 //640px iphone 6 landscape
 @media screen and (max-width: 640px) {
-
-	.show640 { display: block;}
-	.hide640 { display: none;}
-
-	h3 { @include font-rempx(38);  }
-	.font30 { @include font-rempx(25); line-height: 33px; }
-	.font35 { @include font-rempx(25); line-height: 33px; }
-
-	header { padding: 0 5px; }
-
+	.logo--holder { text-align: center; }
+	.home-page h1 { @include font-rempx(40); line-height: 46px; }
 }
 
 //568px iphone 5 landscape
 @media screen and (max-width: 568px) {
-	header .font20 { margin: 0; }
-	h1 { @include font-rempx(36);  line-height: 48px; padding-bottom: 30px; }
-
-	.home-page { 		
-		h1 { font-family: $font-third; @include font-rempx(30); line-height: 40px; padding-bottom: 30px; }
-		h2 {  font-family: $font-third; @include font-rempx(20); font-size: 26px;  }
-		.homepage--link { @include font-rempx(20); padding: 10px 0 30px; margin: 0;
-			a { color: white; font-family: 'GT Walsheim Pro Medium'; }
-		 }
-		.mainheader--holder { padding: 0 150px; }
-		.head--padding { padding: 100px 20px 20px; text-align: center; }
-		p.homepage--para { font-size: 18px; font-family: $font-forth;  }
-		.left-head { padding: 0 00px 0 0; }
-		.right-head { padding: 30px 00px 0 0px; }
-	}		
-
-	.about-page h1 { @include font-rempx(32); line-height: 40px; padding-top: 80px; }
-
-	input { width: 100%; }
-
-	textarea  { width: 100%; }
-
-	ul, ol, dl {
-    margin-bottom: 1em;
-    margin-left: 25px; }
 
 
 }
@@ -113,7 +48,6 @@
 		.home_top { float: none; font-size: 0; display: block; text-align: center; margin: 0 auto; width: 100%;
 			ul.menu { list-style: none; padding-top: 10px; margin: 0 auto; text-align: center;  width: 100%;
 				li { text-align: center; display: inline-block; padding: 0 12px 0px 0; } 
-				li:last-child { padding: 0 0 0px 0; } 
 				a { font-size: 16px; ;}
 				a:link { border: 0; }
 			}
@@ -127,8 +61,7 @@
 			ul { list-style: none; padding-top: 10px;
 				li { text-align: center; display: inline-block; padding: 0 10px 10px 0; } 
 				li:nth-child(2) { } 
-				li:last-child { padding: 0 0 10px 0; } 
-				a { font-size: 16px; color: #444444; text-transform: uppercase; font-family: $font-secondary;}
+				a { font-size: 16px; color: #444444; text-transform: uppercase;}
 				a:link { border: 0; }
 			}
 		}

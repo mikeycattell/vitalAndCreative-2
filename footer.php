@@ -28,6 +28,10 @@
 		</footer>
 	</div><!--End #site-wrap-->
 
+	<script>
+	    new WOW().init();
+	</script>
+
 	<?php wp_footer(); ?>
 
 	<!-- Header Scripts -->

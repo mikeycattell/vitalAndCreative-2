@@ -18,14 +18,16 @@
       <?php if( have_rows('servicemain-repeater') ):
           while ( have_rows('servicemain-repeater') ) : the_row();             
       ?>
-      <div style="background: #f6f9fa; border: #d6d6d6; margin: 0 0 20px; padding: 40px 20px;">
+      <div style="background: #fff;padding: 21px 10px; box-sizing: border-box; border: 0px solid #f2f2f2; background: #f2f2f2; margin-bottom: 30px;">
         <div class="grid-third">
-          <img src="<?php the_sub_field('service_image'); ?>">
+          <img style="margin: 0; padding: 0; vertical-align: middle;" src="<?php the_sub_field('service_image'); ?>">
         </div>
 
         <div class="grid-two-thirds">
-          <h2><?php the_sub_field('service-title'); ?></h2>
-          <p><?php the_sub_field('service-text'); ?></p>
+          <div>
+            <h2><?php the_sub_field('service-title'); ?></h2>
+            <p><?php the_sub_field('service-text'); ?></p>
+          </div>
         </div>
         <div class="clearfix"></div>
       </div>

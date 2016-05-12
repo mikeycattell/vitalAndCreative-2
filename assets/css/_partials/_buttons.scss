@@ -2,14 +2,14 @@
 
 .btn {
 	display: inline-block; 
-	font-size: calc-em(18px);
-	padding: calc-em(12px) calc-em(14px);
+	font-family: $font-reg; 
+	@include font-rempx(26);
+	padding: 18px 80px;
 	line-height: 1.2;
 	font-weight: normal;
-	background-color: transparent;
-	 border: calc-em(3px) solid $color-white;
-	text-transform: uppercase;
-	border-radius: calc-em(2px);
+	background-color: $color-primary;
+	 border: 0;
+	border-radius: calc-em(20px);
 	margin-right: calc-em(5px);
 	margin-bottom: calc-em(5px);
 }
@@ -37,12 +37,30 @@ a .btn:active,
 	background-color: darken( $color-primary, 15% );
 	border-color: darken( $color-primary, 15% );
 	text-decoration: none;
+	border-bottom: 0;
 }
 
 .btn-secondary {
 	background-color: transparent;
 	border-color: $color-black;
 	color: $color-black!important;
+}
+
+.btn-secondary:hover,
+a .btn-secondary:hover,
+.btn-secondary:focus,
+a .btn-secondary:focus,
+.btn-secondary:active,
+a .btn-secondary:active,
+.btn-secondary.active {
+	background-color: darken( $color-black, 15% );
+	border-color: darken( $color-black, 15% );
+	color: $color-white!important;
+}
+
+.btn-small {
+	@include font-rempx(20);
+	padding: 12px 50px;
 }
 
 .btn-secondary:hover,

@@ -47,7 +47,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: "open sans", sans-serif;
+  font-family: "Open Sans Light", sans-serif;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
@@ -314,15 +314,15 @@ a:active {
 /* rem sizing function */
 body {
   color: #151515;
-  font-size: 0.8888888889 rem;
+  font-size: 0.8 rem;
   font-size: 16px;
-  font-family: "open sans", sans-serif;
+  font-family: "Open Sans Light", sans-serif;
   font-weight: normal;
   line-height: 1.5rem; }
 
 /*--- HEADINGS ---*/
 .alpha {
-  font-size: 1.3333333333 rem;
+  font-size: 1.2 rem;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.90rem;
@@ -330,7 +330,7 @@ body {
   padding-bottom: 0.625em; }
 
 .beta {
-  font-size: 1.2222222222 rem;
+  font-size: 1.1 rem;
   font-size: 22px;
   text-transform: uppercase;
   text-align: center;
@@ -365,7 +365,7 @@ body {
 
 .delta {
   font-weight: 600;
-  font-size: 0.8888888889 rem;
+  font-size: 0.8 rem;
   font-size: 16px;
   line-height: 22px;
   color: #151515;
@@ -375,7 +375,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   color: #151515;
-  font-size: 0.7777777778 rem;
+  font-size: 0.7 rem;
   font-size: 14px; }
 
 /*--- LINKS ---*/
@@ -397,44 +397,44 @@ li > ol {
   font-style: italic;
   font-weight: 700; }
 @font-face {
-  font-family: 'GT Walsheim Pro Bold';
-  src: url("../webfonts/GT-Walsheim-Pro-Trial-Bold.eot");
+  font-family: 'Open Sans';
+  src: url("../webfonts/OpenSans-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("../webfonts/GT-Walsheim-Pro-Trial-Bold.eot?#iefix") format("embedded-opentype"), url("../webfonts/GT-Walsheim-Pro-Trial-Bold.woff") format("woff"), url("../webfonts/GT-Walsheim-Pro-Trial-Bold.ttf") format("truetype"), url("../webfonts/GT-Walsheim-Pro-Trial-Bold.svg#392504cda5653c30d1c6c0fe162f65ae") format("svg");
-  /* Legacy iOS */
-  font-style: normal;
-  font-weight: 700; }
-@font-face {
-  font-family: 'GT Walsheim Pro Medium';
-  src: url("../webfonts/GT-Walsheim-Pro-Trial-Medium.eot");
-  /* IE9 Compat Modes */
-  src: url("../webfonts/GT-Walsheim-Pro-Trial-Medium.eot?#iefix") format("embedded-opentype"), url("../webfonts/GT-Walsheim-Pro-Trial-Medium.woff") format("woff"), url("../webfonts/GT-Walsheim-Pro-Trial-Medium.ttf") format("truetype"), url("../webfonts/GT-Walsheim-Pro-Trial-Medium.svg#80a02a2e348f88fcc2dfba6fa0f6048e") format("svg");
+  src: url("../webfonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../webfonts/OpenSans-Regular.woff") format("woff"), url("../webfonts/OpenSans-Regular.ttf") format("truetype"), url("../webfonts/OpenSans-Regular.svg#dc56f0938c09c27a4156bb0f8f5176a2") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
 @font-face {
-  font-family: 'GT Walsheim Pro Light';
-  src: url("../webfonts/GT-Walsheim-Pro-Trial-Light.eot");
+  font-family: 'Open Sans Light';
+  src: url("../webfonts/OpenSans-Light.eot");
   /* IE9 Compat Modes */
-  src: url("../webfonts/GT-Walsheim-Pro-Trial-Light.eot?#iefix") format("embedded-opentype"), url("../webfonts/GT-Walsheim-Pro-Trial-Light.woff") format("woff"), url("../webfonts/GT-Walsheim-Pro-Trial-Light.ttf") format("truetype"), url("../webfonts/GT-Walsheim-Pro-Trial-Light.svg#78a78b03286c69c3bc63c9a13818c196") format("svg");
+  src: url("../webfonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../webfonts/OpenSans-Light.woff") format("woff"), url("../webfonts/OpenSans-Light.ttf") format("truetype"), url("../webfonts/OpenSans-Light.svg#09be4bfe8975a657af6444a6f1d73848") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 200; }
 @font-face {
-  font-family: 'GT Pressura Trial Light';
-  src: url("../webfonts/GT-Pressura-Trial-Light.eot");
+  font-family: 'Open Sans Lightitalic';
+  src: url("../webfonts/OpenSans-LightItalic.eot");
   /* IE9 Compat Modes */
-  src: url("../webfonts/GT-Pressura-Trial-Light.eot?#iefix") format("embedded-opentype"), url("../webfonts/GT-Pressura-Trial-Light.woff") format("woff"), url("../webfonts/GT-Pressura-Trial-Light.ttf") format("truetype"), url("../webfonts/GT-Pressura-Trial-Light.svg#0d80d483b5b9dd845fb09d23006bcb03") format("svg");
+  src: url("../webfonts/OpenSans-LightItalic.eot?#iefix") format("embedded-opentype"), url("../webfonts/OpenSans-LightItalic.woff") format("woff"), url("../webfonts/OpenSans-LightItalic.ttf") format("truetype"), url("../webfonts/OpenSans-LightItalic.svg#fccccf1acf55b11d3e92cdf123b28da0") format("svg");
+  /* Legacy iOS */
+  font-style: italic;
+  font-weight: 200; }
+@font-face {
+  font-family: 'Open Sans Semibold';
+  src: url("../webfonts/OpenSans-Semibold.eot");
+  /* IE9 Compat Modes */
+  src: url("../webfonts/OpenSans-Semibold.eot?#iefix") format("embedded-opentype"), url("../webfonts/OpenSans-Semibold.woff") format("woff"), url("../webfonts/OpenSans-Semibold.ttf") format("truetype"), url("../webfonts/OpenSans-Semibold.svg#b96880fafbf6b051ff49d9fe8a31137c") format("svg");
   /* Legacy iOS */
   font-style: normal;
-  font-weight: 200; }
+  font-weight: 700; }
 /**
  * @section Typography
  * Sets font styles for entire site
  */
 body {
-  font-family: "open sans", sans-serif;
-  font-size: 18;
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 20;
   line-height: 1.5;
   color: #151515;
   background: #ffffff; }
@@ -631,14 +631,15 @@ pre code {
 /* Buttons layout only */
 .btn {
   display: inline-block;
-  font-size: 1.125em;
-  padding: 0.75em 0.875em;
+  font-family: "Open sans", sans-serif;
+  font-size: 1.3 rem;
+  font-size: 26px;
+  padding: 18px 80px;
   line-height: 1.2;
   font-weight: normal;
-  background-color: transparent;
-  border: 0.1875em solid #ffffff;
-  text-transform: uppercase;
-  border-radius: 0.125em;
+  background-color: #e65142;
+  border: 0;
+  border-radius: 1.25em;
   margin-right: 0.3125em;
   margin-bottom: 0.3125em; }
 
@@ -663,12 +664,29 @@ a .btn:active,
 .btn.active {
   background-color: #c2291a;
   border-color: #c2291a;
-  text-decoration: none; }
+  text-decoration: none;
+  border-bottom: 0; }
 
 .btn-secondary {
   background-color: transparent;
   border-color: #151515;
   color: #151515 !important; }
+
+.btn-secondary:hover,
+a .btn-secondary:hover,
+.btn-secondary:focus,
+a .btn-secondary:focus,
+.btn-secondary:active,
+a .btn-secondary:active,
+.btn-secondary.active {
+  background-color: black;
+  border-color: black;
+  color: #ffffff !important; }
+
+.btn-small {
+  font-size: 1 rem;
+  font-size: 20px;
+  padding: 12px 50px; }
 
 .btn-secondary:hover,
 a .btn-secondary:hover,
@@ -750,7 +768,7 @@ select {
   border-radius: 0;
   font-weight: 300;
   border: none;
-  font-size: 0.7777777778 rem;
+  font-size: 0.7 rem;
   font-size: 14px; }
   @media (min-width: 40em) {
     input,
@@ -814,7 +832,9 @@ select:focus {
 body {
   height: 0;
   background: #ffffff;
-  margin: 0 0 0 0; }
+  margin: 0 0 0 0;
+  font-size: 1 rem;
+  font-size: 20px; }
 
 .col {
   display: block;
@@ -826,10 +846,12 @@ body {
   padding: 0 15px; }
 
 .content {
-  padding: 0 120px; }
+  max-width: 965px;
+  margin: 0 auto; }
 
 .content--med {
-  padding: 0px 60px; }
+  max-width: 800px;
+  margin: 0 auto; }
 
 .section--spacer {
   padding-top: 30px;
@@ -837,7 +859,12 @@ body {
 
 /* home page specific */
 header {
-  position: relative; }
+  background: rgba(0, 0, 0, 0.8);
+  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  padding-top: 13px; }
   header .header--contactinfo {
     text-align: right; }
   header a {
@@ -849,47 +876,21 @@ header {
     padding-top: 19px;
     font-size: 16px; }
     header .header-contactus a {
-      color: white;
-      font-family: "GT Walsheim Pro Bold", sans-serif; }
+      color: white; }
       header .header-contactus a:hover {
         color: white; }
     header .header-contactus a.tel {
-      color: white;
-      font-family: "open sans", sans-serif; }
+      color: white; }
 
-header .header--contactinfo--internal {
-  text-align: right; }
-header a {
-  color: #ffffff; }
-header a:hover {
-  color: #151515;
-  font-weight: bold; }
-header .header-contactus--internal {
-  padding-top: 19px;
-  font-size: 16px; }
-  header .header-contactus--internal a {
-    color: #e65142;
-    font-family: "GT Walsheim Pro Bold", sans-serif; }
-  header .header-contactus--internal a.tel {
-    color: #151515;
-    font-family: "open sans", sans-serif; }
-
-.header_default {
-  position: absolute;
-  top: 20px;
-  color: white;
-  padding: 0 80px;
-  width: 100%;
-  z-index: 100; }
-
-.logoholder {
-  margin: 20px auto 0;
-  text-align: center; }
+.logo--holder {
+  font-size: 20px;
+  margin-bottom: 6px; }
 
 nav {
   cursor: pointer;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  line-height: 32px; }
   nav .home_top {
     float: none;
     font-size: 0;
@@ -902,15 +903,19 @@ nav {
         text-align: right;
         display: inline-block;
         padding: 0 18px 0 0; }
-      nav .home_top ul.menu li:last-child {
-        padding: 0 0 0 0; }
       nav .home_top ul.menu a {
-        font-size: 14px;
+        font-size: 16px;
         color: #fff;
         text-transform: uppercase; }
         nav .home_top ul.menu a:hover {
           text-decoration: none;
           border-bottom: 1px solid #ffffff; }
+      nav .home_top ul.menu .btn {
+        font-size: 16px;
+        padding: 6px 15px; }
+        nav .home_top ul.menu .btn a:hover {
+          text-decoration: none;
+          border-bottom: 0px solid #ffffff; }
       nav .home_top ul.menu .current_page_item a {
         color: #ffffff;
         border-bottom: 1px solid #ffffff; }
@@ -966,44 +971,93 @@ nav {
       font-size: 14px;
       padding: 0 0 0 5px; }
 
-/* homepage specific styles */
 .home-page {
-  padding: 0; }
+  padding: 0;
+  /* animates header */ }
+  .home-page .home--header {
+    width: 100%;
+    height: 100%;
+    background-image: url(http://michaels-macbook-pro.local:5757/wp-content/uploads/2016/03/background-header.jpg);
+    background-position: 0px 0px;
+    background-repeat: repeat-y;
+    -webkit-animation: myanim 40s infinite linear;
+    -moz-animation: myanim 40s infinite linear;
+    -o-animation: myanim 40s infinite linear;
+    animation: myanim 40s infinite linear; }
   .home-page h1 {
-    font-size: 3.7777777778 rem;
-    font-size: 68px;
+    font-family: "Open sans", sans-serif;
+    font-size: 2.5 rem;
+    font-size: 50px;
     line-height: 74px;
     padding-bottom: 30px;
     color: #ffffff; }
   .home-page .homepage--link {
-    font-size: 1.4444444444 rem;
+    font-size: 1.3 rem;
     font-size: 26px;
     padding: 30px 0 30px;
     margin: 0; }
     .home-page .homepage--link a {
-      color: white;
-      font-family: 'GT Walsheim Pro Medium'; }
+      color: #ffffff; }
       .home-page .homepage--link a:hover {
         text-decoration: none;
         border-bottom: 1px solid #ffffff; }
-  .home-page .mainheader--holder {
-    padding: 0 150px; }
   .home-page .head--padding {
     padding: 110px 50px 60px; }
-  .home-page p.homepage--para {
-    font-size: 18px;
-    font-family: "GT Walsheim Pro Light", sans-serif; }
-  .home-page .left-head {
-    padding: 0 50px 0 0;
-    color: #ffffff; }
-  .home-page .right-head {
-    padding: 80px 0 0 50px;
-    color: #ffffff; }
+    .home-page .head--padding p {
+      font-size: 22px;
+      line-height: 34px;
+      padding: 20px 0 40px;
+      color: white;
+      max-width: 840px; }
+@-webkit-keyframes myanim {
+  0% {
+    background-position: 0px; }
+  100% {
+    background-position: 0px 1000px; }
+  /* set this to the width of the image */ }
+@-moz-keyframes myanim {
+  0% {
+    background-position: 0px; }
+  100% {
+    background-position: 0px 1000px; }
+  /* set this to the width of the image */ }
+@-o-keyframes myanim {
+  0% {
+    background-position: 0px; }
+  100% {
+    background-position: 1000px; }
+  /* set this to the width of the image */ }
+@keyframes myanim {
+  0% {
+    background-position: 0px; }
+  100% {
+    background-position: 0px 1000px; }
+  /* set this to the width of the image */ }
+.section--first {
+  padding: 50px 0px;
+  background: #f7f7f7; }
+
+.section--second {
+  padding: 40px 0 0px; }
+
+.section--third {
+  padding: 50px 0 10px;
+  background: #e4e2e2; }
 
 .all-post {
   padding: 0; }
+  .all-post .home--header {
+    width: 100%;
+    height: 100%;
+    background-image: url(http://michaels-macbook-pro.local:5757/wp-content/uploads/2016/03/background-header.jpg);
+    background-position: 0px 0px;
+    background-repeat: repeat-y;
+    -webkit-animation: myanim 40s infinite linear;
+    -moz-animation: myanim 40s infinite linear;
+    -o-animation: myanim 40s infinite linear;
+    animation: myanim 40s infinite linear; }
   .all-post h1 {
-    font-size: 3.7777777778 rem;
+    font-size: 3.4 rem;
     font-size: 68px;
     line-height: 74px;
     padding-bottom: 30px;
@@ -1013,23 +1067,8 @@ nav {
   .all-post .head--padding {
     padding: 110px 50px 60px; }
 
-/* generic  styles */
-.calltome {
-  background: #fafafb; }
-  .calltome p:first-child {
-    font-size: 3.8888888889 rem;
-    font-size: 70px;
-    line-height: 82px;
-    padding: 20px 0 40px;
-    margin: 0;
-    font-weight: 400; }
-  .calltome p:nth-child(2) {
-    font-size: 1.1111111111 rem;
-    font-size: 20px;
-    padding-bottom: 20px; }
-
 .testimonials p:first-child {
-  font-size: 2.2222222222 rem;
+  font-size: 2 rem;
   font-size: 40px;
   line-height: 60px;
   padding: 0 0 40px;
@@ -1037,7 +1076,7 @@ nav {
   color: #4f221d;
   font-weight: normal; }
 .testimonials p:nth-child(2) {
-  font-size: 1.1111111111 rem;
+  font-size: 1 rem;
   font-size: 20px; }
 .testimonials .testimonial--avi {
   float: left;
@@ -1048,14 +1087,37 @@ nav {
   border: 0px; }
 .testimonials .testimonial--author {
   padding: 16px 0 0 75px;
-  font-size: 0.8888888889 rem;
+  font-size: 0.8 rem;
   font-size: 16px; }
+
+ul.services {
+  list-style: none;
+  margin: 0; }
+  ul.services img {
+    padding: 0 0 10px; }
+  ul.services p {
+    font-size: 0.9 rem;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 20px; }
+  ul.services li {
+    margin: 20px 0; }
+    ul.services li:nth-child(2n+2) {
+      -webkit-animation-delay: 0.5s;
+      animation-delay: 0.5s; }
+
+.section--cta {
+  margin: 30px 0; }
+  .section--cta p {
+    font-family: "Open sans", sans-serif;
+    font-size: 1.3 rem;
+    font-size: 26px; }
 
 /*blog styling */
 .blogholder--page {
   padding: 80px 0 60px; }
   .blogholder--page h1 {
-    font-size: 5 rem;
+    font-size: 4.5 rem;
     font-size: 90px;
     line-height: 95px;
     color: #303030;
@@ -1070,7 +1132,7 @@ nav {
       border-bottom: 1px solid #d6d6d6; }
       .blogholder--page ul.blogfeed--container li a.blogfeed--postheader {
         padding: 0 0 28px;
-        font-size: 3.0555555556 rem;
+        font-size: 2.75 rem;
         font-size: 55px;
         line-height: 62px;
         border-bottom: 0; }
@@ -1078,16 +1140,16 @@ nav {
         background-color: transparent;
         height: 0; }
       .blogholder--page ul.blogfeed--container li a.blogfeed--readmore {
-        font-size: 1.3888888889 rem;
+        font-size: 1.25 rem;
         font-size: 25px; }
       .blogholder--page ul.blogfeed--container li .main {
-        font-size: 1.3888888889 rem;
+        font-size: 1.25 rem;
         font-size: 25px; }
     .blogholder--page ul.blogfeed--container li:first-child {
       padding: 5px 0 10px; }
 
 article header h1 {
-  font-size: 5 rem;
+  font-size: 4.5 rem;
   font-size: 90px;
   line-height: 95px;
   color: #303030;
@@ -1099,7 +1161,7 @@ footer {
   border-top: 1px solid #d6d6d6;
   padding: 50px 0;
   color: #151515;
-  font-size: 0.8888888889 rem;
+  font-size: 0.8 rem;
   font-size: 16px; }
   footer a {
     color: #151515; }
@@ -1110,35 +1172,110 @@ footer {
   footer a:visited {
     color: #151515; }
 
+blockquote {
+  max-width: 760px;
+  margin: 30px auto 5px;
+  background: white;
+  border-left: 8px solid #d6d6d6;
+  padding: 20px 20px 10px; }
+  blockquote .testiominal {
+    font-family: "Open Sans Lightitalic", sans-serif;
+    font-size: 0.95 rem;
+    font-size: 19px; }
+  blockquote .author {
+    font-family: "Open sans", sans-serif;
+    font-size: 0.8 rem;
+    font-size: 16px; }
+
 /* headers */
 h1 {
-  font-family: 'GT Walsheim Pro Medium';
-  font-size: 3.7777777778px rem;
-  font-size: 68pxpx;
+  font-size: 2.5 rem;
+  font-size: 50px;
   line-height: 74px;
   padding-bottom: 30px; }
 
 h2 {
-  padding: 30px 0 0;
-  font-size: 1.8888888889 rem;
-  font-size: 34px;
+  font-family: "Open Sans Semibold", sans-serif;
+  padding: 0 0 20px;
+  font-size: 1 rem;
+  font-size: 20px;
   line-height: 44px; }
 
 h3 {
-  font-size: 1.5555555556 rem;
-  font-size: 28px;
-  line-height: 32px;
-  padding: 0 0 30px; }
+  font-family: "Open Sans Semibold", sans-serif;
+  font-size: 0.9 rem;
+  font-size: 18px;
+  line-height: 40px;
+  padding: 0 0 10px;
+  margin-bottom: 26px;
+  position: relative; }
+  h3:after {
+    left: 52%;
+    margin-left: -50px;
+    background-color: #e65142;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    bottom: -5px; }
 
 h4 {
-  padding: 30px 0 0;
-  font-size: 1.6666666667 rem;
-  font-size: 30px;
-  line-height: 45px; }
+  font-family: "Open Sans Semibold", sans-serif;
+  font-size: 1 rem;
+  font-size: 20px;
+  line-height: 44px;
+  padding: 0 0 18px;
+  margin-bottom: 32px;
+  position: relative; }
+  h4:after {
+    left: 52%;
+    margin-left: -50px;
+    background-color: #e65142;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    bottom: -5px; }
 
 h5 {
-  font-size: 1.2222222222 rem;
-  font-size: 22px; }
+  font-family: "Open Sans Semibold", sans-serif;
+  font-size: 1 rem;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 0 0 18px;
+  margin-bottom: 32px;
+  position: relative; }
+  h5:after {
+    left: 52%;
+    margin-left: -50px;
+    background-color: #e65142;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    bottom: -5px; }
+
+.header--sub {
+  font-family: "Open Sans Semibold", sans-serif;
+  font-size: 1 rem;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 0 0 18px;
+  margin-bottom: 32px;
+  position: relative; }
+  .header--sub:after {
+    left: 52%;
+    margin-left: -50px;
+    background-color: #e65142;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    bottom: -5px; }
 
 /* font sizes */
 .font16 {
@@ -1150,27 +1287,27 @@ h5 {
   line-height: 26px; }
 
 .font20 {
-  font-size: 1.1111111111 rem;
+  font-size: 1 rem;
   font-size: 20px;
   line-height: 28px; }
 
 .font25 {
-  font-size: 1.3888888889 rem;
+  font-size: 1.25 rem;
   font-size: 25px;
   line-height: 33px; }
 
 .font30 {
-  font-size: 1.6666666667 rem;
+  font-size: 1.5 rem;
   font-size: 30px;
   line-height: 38px; }
 
 .font35 {
-  font-size: 1.9444444444 rem;
+  font-size: 1.75 rem;
   font-size: 35px;
   line-height: 43px; }
 
 .font55 {
-  font-size: 3.0555555556 rem;
+  font-size: 2.75 rem;
   font-size: 55px;
   line-height: 63px;
   padding: 20px 0 30px;
@@ -1218,50 +1355,6 @@ label {
   content: "";
   display: table;
   clear: both; }
-
-.normal {
-  font-family: 'PT Sans', sans-serif; }
-
-ul.shots {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px;
-  display: inline-block; }
-  ul.shots li {
-    float: left;
-    width: 33.3333%;
-    padding: 0 20px 0 0;
-    margin: 0;
-    max-height: 262px;
-    margin-bottom: 20px;
-    overflow: hidden; }
-    ul.shots li:hover {
-      border-bottom: 0; }
-  ul.shots li:first-child {
-    float: left;
-    width: 33.3333%;
-    padding: 0 20px 0 0;
-    margin: 0;
-    max-height: 262px;
-    margin-bottom: 20px;
-    overflow: hidden; }
-  ul.shots li:nth-child(3n+0) {
-    float: left;
-    width: 33.3333%;
-    padding: 0 0 0 0;
-    margin: 0;
-    max-height: 262px;
-    margin-bottom: 20px;
-    overflow: hidden; }
-  ul.shots img {
-    display: block;
-    width: 100%; }
-    ul.shots img:hover {
-      border-bottom: 0; }
-  ul.shots a {
-    display: block; }
-    ul.shots a:hover {
-      border-bottom: 0; }
 
 /* misc */
 .show640 {
@@ -1542,158 +1635,18 @@ ul.shots {
 \*------------------------------------*/
 @media screen and (max-width: 60em) {
   header {
-    padding: 0 45px; }
+    padding: 13px 45px; }
 
   .content {
     padding: 0 20px; } }
-@media screen and (max-width: 750px) {
-  .content {
-    padding: 0 20px; }
-
-  .home-page .mainheader--holder {
-    padding: 0 50px; }
-
-  h1 {
-    font-size: 2.7777777778 rem;
-    font-size: 50px;
-    line-height: 60px;
-    padding-bottom: 30px; }
-
-  header {
-    padding: 0 0 0 15px; }
-
-  .font25 {
-    font-size: 1.1111111111 rem;
-    font-size: 20px;
-    line-height: 28px; }
-
-  h3 {
-    font-size: 2.7777777778 rem;
-    font-size: 50px; }
-
-  .home-page h1 {
-    font-size: 2.7777777778 rem;
-    font-size: 50px;
-    line-height: 64px;
-    padding-bottom: 30px; }
-  .home-page .mainheader--holder {
-    padding: 0 150px; }
-  .home-page .head--padding {
-    padding: 90px 30px 20px; }
-  .home-page p.homepage--para {
-    font-size: 18px;
-    font-family: "GT Walsheim Pro Light", sans-serif; }
-  .home-page .left-head {
-    padding: 0 50px 0 0; }
-  .home-page .right-head {
-    padding: 80px 0 0 50px; }
-
-  .header_default {
-    padding: 0; }
-
-  .blogholder--page {
-    padding: 100px 20px 60px; }
-    .blogholder--page h1 {
-      font-size: 2.5 rem;
-      font-size: 45px;
-      line-height: 55px;
-      padding: 0; }
-
-  .blogholder--page ul.blogfeed--container li a.blogfeed--postheader {
-    font-size: 1.9444444444 rem;
-    font-size: 35px;
-    line-height: 45px; }
-
-  article header h1 {
-    font-size: 2.2222222222 rem;
-    font-size: 40px;
-    line-height: 55px;
-    color: #303030;
-    text-transform: capitalize;
-    padding: 90px 0 30px; }
-
-  .show750 {
-    display: inline; } }
 @media screen and (max-width: 640px) {
-  .show640 {
-    display: block; }
-
-  .hide640 {
-    display: none; }
-
-  h3 {
-    font-size: 2.1111111111 rem;
-    font-size: 38px; }
-
-  .font30 {
-    font-size: 1.3888888889 rem;
-    font-size: 25px;
-    line-height: 33px; }
-
-  .font35 {
-    font-size: 1.3888888889 rem;
-    font-size: 25px;
-    line-height: 33px; }
-
-  header {
-    padding: 0 5px; } }
-@media screen and (max-width: 568px) {
-  header .font20 {
-    margin: 0; }
-
-  h1 {
-    font-size: 2 rem;
-    font-size: 36px;
-    line-height: 48px;
-    padding-bottom: 30px; }
+  .logo--holder {
+    text-align: center; }
 
   .home-page h1 {
-    font-family: "GT Walsheim Pro Medium", sans-serif;
-    font-size: 1.6666666667 rem;
-    font-size: 30px;
-    line-height: 40px;
-    padding-bottom: 30px; }
-  .home-page h2 {
-    font-family: "GT Walsheim Pro Medium", sans-serif;
-    font-size: 1.1111111111 rem;
-    font-size: 20px;
-    font-size: 26px; }
-  .home-page .homepage--link {
-    font-size: 1.1111111111 rem;
-    font-size: 20px;
-    padding: 10px 0 30px;
-    margin: 0; }
-    .home-page .homepage--link a {
-      color: white;
-      font-family: 'GT Walsheim Pro Medium'; }
-  .home-page .mainheader--holder {
-    padding: 0 150px; }
-  .home-page .head--padding {
-    padding: 100px 20px 20px;
-    text-align: center; }
-  .home-page p.homepage--para {
-    font-size: 18px;
-    font-family: "GT Walsheim Pro Light", sans-serif; }
-  .home-page .left-head {
-    padding: 0 00px 0 0; }
-  .home-page .right-head {
-    padding: 30px 00px 0 0px; }
-
-  .about-page h1 {
-    font-size: 1.7777777778 rem;
-    font-size: 32px;
-    line-height: 40px;
-    padding-top: 80px; }
-
-  input {
-    width: 100%; }
-
-  textarea {
-    width: 100%; }
-
-  ul, ol, dl {
-    margin-bottom: 1em;
-    margin-left: 25px; } }
+    font-size: 2 rem;
+    font-size: 40px;
+    line-height: 46px; } }
 @media screen and (max-width: 30em) {
   nav {
     text-align: center;
@@ -1716,8 +1669,6 @@ ul.shots {
           text-align: center;
           display: inline-block;
           padding: 0 12px 0px 0; }
-        nav .home_top ul.menu li:last-child {
-          padding: 0 0 0px 0; }
         nav .home_top ul.menu a {
           font-size: 16px; }
         nav .home_top ul.menu a:link {
@@ -1737,13 +1688,10 @@ ul.shots {
           text-align: center;
           display: inline-block;
           padding: 0 10px 10px 0; }
-        nav .home_top ul li:last-child {
-          padding: 0 0 10px 0; }
         nav .home_top ul a {
           font-size: 16px;
           color: #444444;
-          text-transform: uppercase;
-          font-family: "GT Walsheim Pro Bold", sans-serif; }
+          text-transform: uppercase; }
         nav .home_top ul a:link {
           border: 0; } }
 /*------------------------------------*\

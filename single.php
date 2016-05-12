@@ -6,29 +6,43 @@
 		<?php while (have_posts()) : the_post(); ?>
 			<section class="home-header" style="background-image: url('<?php the_field('single-image');?>');">
 				<div class="wrapper head--padding text-center">
-
-					<header>
-						<h1><?php the_title(); ?></h1>
-						<p style="font-size: 14px; font-style: italic; color: #9d9d9d;">Date posted: <?php the_date(); ?></p>
-					</header>
+					<h1><?php the_title(); ?></h1>
+					<p style="font-size: 14px; font-style: italic; color: #9d9d9d;">Date posted: <?php the_date(); ?></p>
 				</div>
 			</section>
 
 
-			<div class="wrapper content" style="padding-top: 50px;"> 
+			<section class="section--spacer wrapper content">
+			    <div class="grid-three-fourths">
 
-				<div class="singleBlogPost">
+							<div class="singleBlogPost">
 
-					<article>
-						<p><?php the_content(); ?></p>
-					</article>
-				<?php endwhile; ?>
-			<?php endif; ?>
-		</div>
-	</div>
+								<article>
+									<p><?php the_content(); ?></p>
+								</article>
+							<?php endwhile; ?>
+						<?php endif; ?>
+					</div>
+				</div>
+
+		        <div class="grid-fourth"> 
+				<?php if ( ! dynamic_sidebar( 'primary' ) ) : ?>
+
+		   			<aside id="categories" class="widget">
+					<ul>
+					<?php wp_list_categories( 'title_li=' ); ?>
+					</ul>
+				    </aside>
+
+				<?php endif; ?>
+		    
+		    	</div> 				
+			</section>
+
+ 			
 
 
-	<section class="section--spacer wrapper content--med">
+	<section class="section--spacer wrapper" style="display: none;">
 
 		<h2>Read more like this:</h2>
 
@@ -50,12 +64,11 @@
 			echo '';
 		endif;
 		?>
-		<div class="grid-half" style="min-height: 280px;">
-			<p class="" style="font-size: 26px; margin: 0 0 3px;
-			"><a href = "<?php the_permalink();?>"><?php the_title(); ?></a></p>
-			<p style="font-size: 14px; font-style: italic; color: #9d9d9d;">Date written: &nbsp <?php the_date(); ?></p>
+		<div class="grid-full">
+			<p class="font25" style="margin: 0 0 5px;"><a href = "<?php the_permalink();?>"><?php the_title(); ?></a></p>
+			<p style="font-size: 14px; font-style: italic; color: #9d9d9d;">Date written: <?php the_date(); ?></p>
 			<?php the_excerpt(); ?>
-			<a href = "<?php the_permalink();?>"> read more </a>
+			<a href = "<?php the_permalink();?>"> Read more </a>
 		</div>
 		<?php
 		$post_count++;
