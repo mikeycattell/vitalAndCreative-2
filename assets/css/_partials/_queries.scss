@@ -30,8 +30,51 @@
 
 //640px iphone 6 landscape
 @media screen and (max-width: 640px) {
-	.logo--holder { text-align: center; }
-	.home-page h1 { @include font-rempx(40); line-height: 46px; }
+	.logo--holder { text-align: left; display: none; }
+	.home-page h1 { @include font-rempx(40); line-height: 46px;  padding-top: 0px;}
+	.pay--header h1 { @include font-rempx(40); line-height: 46px;  padding-top: 0px;}
+
+	header { padding: 13px 0; }
+
+	ul.services li { min-height: 100%; }
+
+	.all-post h1 { @include font-rempx(40); line-height: 46px;  padding-top: 30px; }
+	.all-post .blog--header { color: $color-black; padding-top: 60px; padding-bottom: 10px; }
+
+	.work--item .work--textposition .work--text { position: relative; color: $color-black; text-align: left; @include font-rempx(16); line-height: 22px; padding: 0 0px 0px; }
+	.work--item .work--textposition .work--header { position: relative;color: $color-black; top: 57%; @include font-rempx(20); line-height: 24px; padding: 10px 0px 5px; margin: 0;  }
+	.work--item .work--textposition .work--bullets { position: relative;color: $color-black;  top: 79%; @include font-rempx(16); line-height: 22px; padding: 5px 0px; }
+
+	nav { text-align: center; margin: 0 auto; width: 100%;
+		.home_top { float: none; font-size: 0; display: block; text-align: center; margin: 0 auto; width: 100%;
+			ul.menu { list-style: none; padding-top: 10px; margin: 0 auto; text-align: center;  width: 100%; 
+				li { text-align: center; display: inline-block; padding: 0 12px 0px 0; float: none; } 
+				a { font-size: 16px; ;}
+				a:link { border: 0; }
+			}
+		}
+	}
+
+	.home-page .head--padding p {
+		@include font-rempx(18); line-height: 30px;
+	}
+
+	.btn { @include font-rempx(20); line-height: 24px; padding: 18px 60px; }
+
+	ul.services { list-style: none; margin: 0;
+		img { padding: 0 0 10px; }
+		p { @include font-rempx(16); line-height: 24px; padding: 0 20px; }	
+		li { margin: 20px 0; min-height: 280px;
+			&:first-child {  }
+			&:nth-child(2n+2) { -webkit-animation-delay: 0.2s; animation-delay: 0.2s; 
+			}
+
+		}
+	}	
+
+	.hidemobile { display: none; }
+	.showmobile { display: block; }
+	.text-right{ text-align: left; }
 }
 
 //568px iphone 5 landscape
@@ -44,15 +87,7 @@
 //480px
 @media screen and (max-width: $bp-small) {
 
-	nav { text-align: center; margin: 0 auto; width: 100%;
-		.home_top { float: none; font-size: 0; display: block; text-align: center; margin: 0 auto; width: 100%;
-			ul.menu { list-style: none; padding-top: 10px; margin: 0 auto; text-align: center;  width: 100%;
-				li { text-align: center; display: inline-block; padding: 0 12px 0px 0; } 
-				a { font-size: 16px; ;}
-				a:link { border: 0; }
-			}
-		}
-	}
+
 
 }
 @media screen and (max-width: $bp-xsmall) {

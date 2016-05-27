@@ -1,6 +1,6 @@
 <?php get_header(); //template name: homepage?>
 <!--style="background-image: url('<?php the_field('h1-background');?>');"-->
-<main role="main" class="page-content home-page">
+<main role="main" class="page-content home-page" id="top">
   <section class="home--header">
     <div class="wrapper head--padding text-center">
 
@@ -63,33 +63,52 @@
   <section class="section--cta">
     <div class="wrapper text-center">
       <p><?php the_field('cta-1'); ?></p>
-      <a class="btn" href="<?php the_field('cta-1--link'); ?>"> <?php the_field('cta-1--text'); ?></a>
+      <a class="btn" href="<?php the_field('cta-1--link'); ?>" title="<?php the_field('cta-1--title'); ?>"> <?php the_field('cta-1--text'); ?></a>
     </div>
   </section>
 
 
-  <section class="section--third">
+  <section class="section--third" style="display: none;">
     <div class="wrapper content">
 
       <div class="grid-full text-center">
         <h5><?php the_field('h5-title'); ?></h5>
         <p style="font-size: 18px;"><?php the_field('h5-text'); ?></p>
 
-        <div style="width: 100%; background: #f2f2f2; margin: 40px 0; height: 400px">
-        </div>
-        <div style="width: 100%; background: #f2f2f2; margin: 40px 0; height: 400px">
-        </div>        
+        <?php if( have_rows('work--items') ): ?>
+          <?php while( have_rows('work--items') ): the_row(); ?>
 
+            <div class="work--item">
+              <img class="work--bg_img" src="<?php the_sub_field('work_background'); ?>">
+              <div class="work--textposition">
+                <p class="work--text hidemobile"><?php the_sub_field('work_text'); ?></p>
+                <p class="work--header"><?php the_sub_field('work_header'); ?></p>
+                <p class="work--text showmobile"><?php the_sub_field('work_text'); ?></p>
+                <p class="work--bullets"><?php the_sub_field('work_bullets'); ?></p>
+              </div>
+            </div>
+          
+          <?php endwhile; ?>  
+        <?php endif; ?>   
 
       </div>
-
+    
     </div>
+
+    <div class="wrapper text-center">
+      <p><?php the_field('cta-2'); ?></p>
+      <a class="btn" href="<?php the_field('cta-2--link'); ?>" title="<?php the_field('cta-2--title'); ?>"> <?php the_field('cta-2--text'); ?></a>
+    </div>    
+
+    <div class="clearfix"></div>  
+
+
   </section>
 
 
 
 
-  <section class="section--spacer" style="">
+  <section class="section--spacer section--first">
     <div class=" wrapper content">
       <h4 class="text-center"><?php the_field('h4-input');?></h4>    
 

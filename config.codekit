@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19115",
+"creatorBuild": "19127",
 "files": {
 	"\/404.php": {
 		"fileType": 8192,
@@ -310,178 +310,35 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/images\/icons\/company--logos.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 40293,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/company--logos.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/company--logos.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/icons\/company--logos.png": {
+	"\/assets\/images\/header\/vc--logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 18755,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/company--logos.png",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/company--logos.png",
+		"initialSize": 2192,
+		"inputAbbreviatedPath": "\/assets\/images\/header\/vc--logo.png",
+		"outputAbbreviatedPath": "\/assets\/images\/header\/vc--logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/icons\/companylogos_mobile.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16157,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/companylogos_mobile.png",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/companylogos_mobile.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/icons\/mc_logo.jpg": {
+	"\/assets\/images\/layout\/headerbg-red.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6022,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/mc_logo.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/mc_logo.jpg",
+		"initialSize": 202280,
+		"inputAbbreviatedPath": "\/assets\/images\/layout\/headerbg-red.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/layout\/headerbg-red.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/icons\/mc_logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1800,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/mc_logo.png",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/mc_logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/icons\/mc_logo_red.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2129,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/mc_logo_red.png",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/mc_logo_red.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/icons\/share.jpg": {
+	"\/assets\/images\/layout\/headerbg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2843,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/share.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/share.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/icons\/shareArticle.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2906,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/shareArticle.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/shareArticle.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/icons\/sharer.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2929,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/sharer.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/sharer.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/icons\/tweet.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2855,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/tweet.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/tweet.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/layout\/angeli.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 30301,
-		"inputAbbreviatedPath": "\/assets\/images\/layout\/angeli.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/layout\/angeli.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/layout\/edwardsandwalker_full.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 651016,
-		"inputAbbreviatedPath": "\/assets\/images\/layout\/edwardsandwalker_full.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/layout\/edwardsandwalker_full.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/layout\/edwardswalker_1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 581972,
-		"inputAbbreviatedPath": "\/assets\/images\/layout\/edwardswalker_1.png",
-		"outputAbbreviatedPath": "\/assets\/images\/layout\/edwardswalker_1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/layout\/edwardswalker_desktop.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 183843,
-		"inputAbbreviatedPath": "\/assets\/images\/layout\/edwardswalker_desktop.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/layout\/edwardswalker_desktop.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/layout\/edwardswalker_desktop2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 281918,
-		"inputAbbreviatedPath": "\/assets\/images\/layout\/edwardswalker_desktop2.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/layout\/edwardswalker_desktop2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/layout\/edwardswalker_style.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 290324,
-		"inputAbbreviatedPath": "\/assets\/images\/layout\/edwardswalker_style.png",
-		"outputAbbreviatedPath": "\/assets\/images\/layout\/edwardswalker_style.png",
+		"initialSize": 257956,
+		"inputAbbreviatedPath": "\/assets\/images\/layout\/headerbg.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/layout\/headerbg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -779,83 +636,6 @@
 		"initialSize": 3397,
 		"inputAbbreviatedPath": "\/assets\/images\/touch-icons\/mstile-70x70.png",
 		"outputAbbreviatedPath": "\/assets\/images\/touch-icons\/mstile-70x70.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/work\/edwardsandwalker.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 236016,
-		"inputAbbreviatedPath": "\/assets\/images\/work\/edwardsandwalker.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/work\/edwardsandwalker.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/work\/madltd.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 500378,
-		"inputAbbreviatedPath": "\/assets\/images\/work\/madltd.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/work\/madltd.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/work\/remington-mancave.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 590144,
-		"inputAbbreviatedPath": "\/assets\/images\/work\/remington-mancave.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/work\/remington-mancave.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/work\/remington-yourstyle.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 225636,
-		"inputAbbreviatedPath": "\/assets\/images\/work\/remington-yourstyle.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/work\/remington-yourstyle.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/work\/renew_app.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 149709,
-		"inputAbbreviatedPath": "\/assets\/images\/work\/renew_app.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/work\/renew_app.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/work\/russellhobbs.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 219199,
-		"inputAbbreviatedPath": "\/assets\/images\/work\/russellhobbs.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/work\/russellhobbs.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/work\/techoff.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 562597,
-		"inputAbbreviatedPath": "\/assets\/images\/work\/techoff.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/work\/techoff.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1539,24 +1319,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/allcol.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/allcol.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/html5reset.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/html5reset.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/footer.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1584,6 +1346,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/header-blog.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/header-blog.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/header-nonav.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/header-nonav.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/header.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1607,6 +1387,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/paypal.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/paypal.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1682,9 +1471,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "vitalAndCreative 2",
+	"displayValue": "vitalandcreative--2016",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "harddrive_gray"
+	"iconImageName": "compass_gray"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
@@ -1841,7 +1630,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "localhost:8888\/vitalandcreative",
+	"externalServerAddress": "http:\/\/localhost:8888\/vitalandcreative\/",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
@@ -2318,7 +2107,7 @@
 	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleResolutionType": 0,
-	"typescriptModuleType": 0,
+	"typescriptModuleType": 2,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,

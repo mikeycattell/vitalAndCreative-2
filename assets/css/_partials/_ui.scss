@@ -13,7 +13,7 @@ body{ height: 0; background: $color-white; margin: 0 0 0 0; @include font-rempx(
 .section--spacer { padding-top: 30px; padding-bottom: 30px; }
 
 /* home page specific */
-header { background: rgba(0,0,0, 0.8); position: relative; position: fixed; width: 100%; z-index: 50;     padding-top: 13px;
+header { background: rgba(56,72,87, 0.6); position: relative; position: fixed; width: 100%; z-index: 50; padding: 13px 0 10px; 
 	.header--contactinfo { text-align: right; }
 	a { color: $color-white; }
 	a:hover { color: $color-white; font-weight: bold; }
@@ -26,12 +26,16 @@ header { background: rgba(0,0,0, 0.8); position: relative; position: fixed; widt
 	 }
 }
 
-.logo--holder { font-size: 20px; margin-bottom: 6px; }
+.blog--red { background: rgba(114,89,93, 0.6)!important; }
+
+.logo--holder { 
+	img { max-height: 40px;}
+}
 
 nav { cursor: pointer; margin: 0 auto; text-align: center; line-height: 32px;
 	.home_top { float: none; font-size: 0; display: block;
 
-		ul.menu { list-style: none; padding-top: 0; float: right;
+		ul.menu { list-style: none; padding-top: 6px; float: right;
 			li { text-align: right; display: inline-block; padding: 0 18px 0 0; } 
 			 
 			a { font-size: 16px; color: #fff; text-transform: uppercase;
@@ -69,7 +73,7 @@ nav { cursor: pointer; margin: 0 auto; text-align: center; line-height: 32px;
 }
 
 .home-page { padding: 0;
-	.home--header { width: 100%; height: 100%; background-image: url(http://michaels-macbook-pro.local:5757/wp-content/uploads/2016/03/background-header.jpg); background-position: 0px 0px; background-repeat: repeat-y;
+	.home--header { width: 100%; height: 100%; background-image: url(../images/layout/headerbg.jpg); background-position: 0px 0px; background-repeat: repeat-y;
     -webkit-animation: myanim 40s infinite linear;
        -moz-animation: myanim 40s infinite linear;
          -o-animation: myanim 40s infinite linear;
@@ -104,20 +108,32 @@ nav { cursor: pointer; margin: 0 auto; text-align: center; line-height: 32px;
 	}
 }
 
+.paypal-page { padding: 0;
+	.pay--header { width: 100%; height: 100%; background: #f2f2f2; }
+	h1 { font-family: $font-reg; @include font-rempx(50); line-height: 74px; padding-bottom: 0px; color: $color-black; }
+	.head--padding { padding: 110px 50px 60px; 
+		p { font-size: 22px; line-height: 34px; padding: 20px 0 40px;color: white; max-width: 840px; }
+	}
+}
+
+
 .section--first { padding: 50px 0px; background: #f7f7f7; }
 .section--second { padding: 40px 0 0px; }
-.section--third { padding: 50px 0 10px; background: #e4e2e2; }
+.section--third { padding: 50px 0 50px; background: #e4e2e2; }
 
 .all-post { padding: 0;
-	.home--header { width: 100%; height: 100%; background-image: url(http://michaels-macbook-pro.local:5757/wp-content/uploads/2016/03/background-header.jpg); background-position: 0px 0px; background-repeat: repeat-y;
+	.home--header { width: 100%; height: 100%; background-image: url(../images/layout/headerbg-red.jpg); background-position: 0px 0px; background-repeat: repeat-y;
     -webkit-animation: myanim 40s infinite linear;
        -moz-animation: myanim 40s infinite linear;
          -o-animation: myanim 40s infinite linear;
             animation: myanim 40s infinite linear;
 	}
 	h1 { @include font-rempx(68); line-height: 74px; padding-bottom: 30px; color: $color-white; }
+	.blog--header { color: $color-black; padding-top: 30px; padding-bottom: 10px;}
 	.mainheader--holder { padding: 0 150px; }
 	.head--padding { padding: 110px 50px 60px; }
+
+
 }
 
 .testimonials { 
@@ -129,16 +145,27 @@ nav { cursor: pointer; margin: 0 auto; text-align: center; line-height: 32px;
 
 ul.services { list-style: none; margin: 0;
 	img { padding: 0 0 10px; }
-	p { @include font-rempx(18); line-height: 24px; padding: 0 20px; }	
-	li { margin: 20px 0;
+	p { @include font-rempx(16); line-height: 24px; padding: 0 20px; }	
+	li { margin: 20px 0; min-height: 280px;
 		&:first-child {  }
-		&:nth-child(2n+2) { -webkit-animation-delay: 0.5s; animation-delay: 0.5s; }
+		&:nth-child(2n+2) { -webkit-animation-delay: 0.5s; animation-delay: 0.5s; 
+			@extend %clearfix;	
+		}
 
 	}
 }
 
 .section--cta { margin: 30px 0;
 	p { font-family: $font-reg; @include font-rempx(26);  }
+}
+
+.work--item { position: relative; margin: 40px 0;
+	.work--bg_img { display: block; width: 100%; max-width: 1900px;overflow: hidden;margin: 0 auto; }	
+	.work--textposition { z-index: 10; max-width: 100%;  margin: 0 auto; 
+		.work--text { position: absolute; @include font-rempx(18); line-height: 24px; color: #fff; top: 40%; text-align: center; width: 100%; padding: 0 20px; }
+		.work--header { font-family: $font-bold; position: absolute;  @include font-rempx(23); line-height: 27px; color: #fff; top: 70%; text-align: left; padding: 0 20px; }
+		.work--bullets { font-family: $font-bold; position: absolute; @include font-rempx(14); line-height: 22px; color: #fff; top: 85%; text-align: left; padding: 0 20px; text-transform: uppercase; }
+	 }
 }
 
 /*blog styling */
@@ -163,12 +190,20 @@ article {
 }
 
 
-footer { background: #fff; border-top: 1px solid #d6d6d6; padding: 50px 0; color: $color-black; @include font-rempx(16);
+footer { background: #e4e2e2; border-top: 2px solid #d6d6d6; padding: 50px 0; color: $color-black; @include font-rempx(16);
 	a { color: $color-black; }
 	a:link { color: $color-black;
 		&:hover { color: $color-black;  }
 	}
 	a:visited { color: $color-black;  } 
+	ul { padding-top: 0; margin: 0; padding: 0;
+		li { display: block; padding: 0 0 5px; 
+			a { color: $color-black;  text-decoration: none; border-bottom: 1px solid $color-primary; }
+		} 
+	}
+	.copywrite {
+		a { font-family: $font-bold; text-decoration: none; border-bottom: 1px solid $color-primary; }
+	}
 }
  
 blockquote { max-width: 760px; margin: 30px auto 5px; background: white; border-left: 8px solid #d6d6d6; padding: 20px 20px 10px;
@@ -189,7 +224,7 @@ h4 { font-family: $font-bold; @include font-rempx(20); line-height: 44px; paddin
 h5 { font-family: $font-bold; @include font-rempx(20); line-height: 32px; padding: 0 0 18px; margin-bottom: 32px; position: relative;
 	&:after { left: 52%; margin-left: -50px; background-color: $color-primary; content: ""; display: block; height: 2px; width: 80px; position: absolute; bottom: -5px; }
 }
-
+h6 { font-family: $font-bold; padding: 0 0 20px; @include font-rempx(20); line-height: 44px; }
 .header--sub { font-family: $font-bold; @include font-rempx(20); line-height: 32px; padding: 0 0 18px; margin-bottom: 32px; position: relative;
 	&:after { left: 52%; margin-left: -50px; background-color: $color-primary; content: ""; display: block; height: 2px; width: 80px; position: absolute; bottom: -5px; }
  }
@@ -206,9 +241,16 @@ h5 { font-family: $font-bold; @include font-rempx(20); line-height: 32px; paddin
 
 input { border: 1px solid #d6d6d6; margin: 8px 0 8px; width: 100%; font-size: 25px; padding: 10px; }
 textarea { border: 1px solid #d6d6d6; margin: 8px 0 0px; width: 100%;  padding: 10px;  font-size: 25px; }
-input.wpcf7-submit { background: #ff1744; color: #fff; padding: 10px; margin-top: 0px; border: 0; cursor: pointer; max-width: 200px; }
+input.wpcf7-submit { max-width: 200px;	display: inline-block;  font-family: $font-reg;  @include font-rempx(26); padding: 18px 60px; line-height: 1.2; font-weight: normal; background-color: $color-primary; color: $color-white; border: 0; border-radius: calc-em(20px); margin-right: calc-em(5px); margin-bottom: calc-em(5px); cursor: pointer;
+	&:hover {	background-color: darken( $color-primary, 15% );
+	border-color: darken( $color-primary, 15% );
+	text-decoration: none;
+	border-bottom: 0; }
+
+}
 input {  -webkit-appearance: none;-webkit-border-radius:0;  border-radius:0; }
 label { font-size: 18px; text-align: left; }
+.wpcf7 p { font-size: 15px; }
 
 .nopadding { padding: 0; }
 .borderall { border: 1px solid #d6d6d6; }
@@ -218,13 +260,13 @@ label { font-size: 18px; text-align: left; }
 
 
 /* misc */
-.show640 { display: none;}
-.show750  { display: none;}
+.showmobile { display: none;}
+
 
 .widget_recent_comments, .widget_meta { display: none; }
 .search-form label span { display: none; }
 .search-form input { font-size: 18px; }
-.search-form .search-submit { background: red; color: white; }
+.search-form .search-submit {     display: inline-block; font-family: "Open sans", sans-serif; padding: 18px 80px; line-height: 1.2; font-weight: normal; background-color: #e65142; border: 0; border-radius: 1.25em; margin-right: 0.3125em; margin-bottom: 0.3125em; color: white; font-size: 16px; padding: 12px 50px; }
 
 .animate_steps1 { -webkit-animation-delay: 0.5s; animation-delay: 0.5s; }
 .animate_steps2 { -webkit-animation-delay: 1s; animation-delay: 1s;}

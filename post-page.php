@@ -4,7 +4,7 @@ Template Name: post page
 */
 ?>
 
-<?php get_header(); ?>
+<?php get_header('blog'); ?>
 
 	<main role="main" class="all-post">
 
@@ -57,6 +57,8 @@ Template Name: post page
 
 
         <div class="grid-fourth"> 
+
+        <?php get_search_form(); ?>
 		<?php if ( ! dynamic_sidebar( 'primary' ) ) : ?>
 
    			<aside id="categories" class="widget">

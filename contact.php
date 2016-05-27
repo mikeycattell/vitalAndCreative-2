@@ -3,13 +3,22 @@
 Template Name: contact page
 */
 ?>
-
+ 
 <?php get_header(); ?>
 
-<main role="main" class="page-content all-post">
+<main role="main" class="page-content all-post" id="top">
 	
+  <section class="home--header">
+    <div class="wrapper head--padding text-center">
+
+      <h1 class="wow fadeInDown animated"><?php the_field('title-input'); ?></h1>
+      <p class="content wow fadeInLeft animated animate_steps1"><?php the_field('h1-text'); ?></p>
+      
+    </div>
+  </section>
+
 	
-			<section class="home-header" style="background-image: url('<?php the_field('single-image');?>');">
+			<!--<section class="home-header" style="background-image: url('<?php the_field('single-image');?>');">
 				<div class="wrapper head--padding text-center">
 
 					<header>
@@ -17,19 +26,24 @@ Template Name: contact page
 					</header>
 
 				</div>
-			</section>
+			</section>-->
 
+		<section class="section--first">
+			<div class="wrapper content text-center"> 
 
-			<div class="wrapper content"> 
+				<p class="header--sub"><?php the_field('header--sub'); ?></p>
 
-				<h2 class=" text-center">Interested in working together?</h2>
-
-				<p class=" text-center">I'd love to know more about your company. <br>
-				Fill out the form below and let's get started.</p>
-
-				<?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]'); ?>
+				<h2><?php the_field('h2-input'); ?></h2>
+				<p><?php the_field('h2-paragraph'); ?></p>
 
 			</div>
+		</section>
+
+		<section class="section--second">
+			<div class="wrapper content"> 
+				<?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]'); ?>
+			</div>
+		</section>
 
 
 	

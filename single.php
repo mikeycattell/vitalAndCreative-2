@@ -1,12 +1,12 @@
-<?php get_header(); ?>
+<?php get_header('blog'); ?>
 
 <main role="main" class="all-post" id="<?php echo get_post_type(); ?>-single">
 	
 	<?php if (have_posts()) : ?>
 		<?php while (have_posts()) : the_post(); ?>
-			<section class="home-header" style="background-image: url('<?php the_field('single-image');?>');">
+			<section class="home-header">
 				<div class="wrapper head--padding text-center">
-					<h1><?php the_title(); ?></h1>
+					<h1 class="blog--header"><?php the_title(); ?></h1>
 					<p style="font-size: 14px; font-style: italic; color: #9d9d9d;">Date posted: <?php the_date(); ?></p>
 				</div>
 			</section>
