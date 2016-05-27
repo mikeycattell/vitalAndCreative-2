@@ -4,7 +4,7 @@ Template Name: contact page
 */
 ?>
  
-<?php get_header(); ?>
+<?php get_header('blog'); ?>
 
 <main role="main" class="page-content all-post" id="top">
 	

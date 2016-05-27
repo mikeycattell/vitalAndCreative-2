@@ -15,7 +15,7 @@ Template Name: post page
 
         </section>
 
-  <section class="section--spacer wrapper content">
+  <section class="section--spacer wrapper">
     <div class="grid-three-fourths">
     
       <?php

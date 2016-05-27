@@ -42,7 +42,7 @@
 <header class="group blog--red" role="banner">
   <div class="wrapper">
     <div class="grid-half">
-      <div class="logo--holder"><a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/header/vc--logo.png" alt=""></a></div>
+      <div class="logo--holder"><a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/header/vc--logo.png" alt="Vital and Creative Digital Marketing"></a></div>
     </div>
     <div class="grid-half">
       <nav>
@@ -60,10 +60,6 @@
       </nav>
     </div>
     
-    <!--<div class="col grid-third logoholder">
-				<a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/icons/mc_logo.png" alt=""></a>
-			</div>				
-		--> 
     
   </div>
 </header>

@@ -42,7 +42,7 @@
 <header class="group" role="banner">
   <div class="wrapper">
     <div class="grid-half">
-      <div class="logo--holder"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/header/vc--logo.png" alt=""></div>
+      <div class="logo--holder"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/header/vc--logo.png" alt="Vital and Creative Digital Marketing"></div>
     </div>
 
     
